@@ -1,0 +1,1557 @@
+2025-04-09 22:02:15.496 | INFO     | app.main:startup_event:31 - Запуск додатку...
+2025-04-09 22:02:15.497 | INFO     | app.main:startup_event:32 - База даних буде ініціалізована при першому запиті
+2025-04-09 22:02:30.982 | INFO     | app.main:shutdown_event:37 - Завершення роботи додатку...
+2025-04-09 22:02:30.984 | INFO     | app.main:shutdown_event:38 - З'єднання з базою даних закрито
+2025-04-09 22:02:33.625 | INFO     | app.main:startup_event:31 - Запуск додатку...
+2025-04-09 22:02:33.626 | INFO     | app.main:startup_event:32 - База даних буде ініціалізована при першому запиті
+2025-04-09 22:07:03.781 | INFO     | app.main:shutdown_event:37 - Завершення роботи додатку...
+2025-04-09 22:07:03.784 | INFO     | app.main:shutdown_event:38 - З'єднання з базою даних закрито
+2025-04-09 22:40:24.038 | INFO     | app.main:startup_event:35 - Запуск додатку...
+2025-04-09 22:40:24.038 | INFO     | app.main:startup_event:36 - База даних успішно ініціалізована
+2025-04-09 22:40:26.477 | INFO     | app.main:shutdown_event:41 - Завершення роботи додатку...
+2025-04-09 22:40:26.480 | INFO     | app.main:shutdown_event:42 - З'єднання з базою даних закрито
+2025-04-09 22:40:26.944 | INFO     | app.main:startup_event:35 - Запуск додатку...
+2025-04-09 22:40:26.945 | INFO     | app.main:startup_event:36 - База даних успішно ініціалізована
+2025-04-09 22:40:28.931 | INFO     | app.main:shutdown_event:41 - Завершення роботи додатку...
+2025-04-09 22:40:28.932 | INFO     | app.main:shutdown_event:42 - З'єднання з базою даних закрито
+2025-04-09 22:40:29.338 | INFO     | app.main:startup_event:35 - Запуск додатку...
+2025-04-09 22:40:29.338 | INFO     | app.main:startup_event:36 - База даних успішно ініціалізована
+2025-04-09 22:40:32.771 | INFO     | app.main:shutdown_event:41 - Завершення роботи додатку...
+2025-04-09 22:40:32.780 | INFO     | app.main:shutdown_event:42 - З'єднання з базою даних закрито
+2025-04-09 22:40:33.485 | INFO     | app.main:startup_event:35 - Запуск додатку...
+2025-04-09 22:40:33.485 | INFO     | app.main:startup_event:36 - База даних успішно ініціалізована
+2025-04-09 22:40:39.871 | INFO     | app.main:shutdown_event:41 - Завершення роботи додатку...
+2025-04-09 22:40:39.872 | INFO     | app.main:shutdown_event:42 - З'єднання з базою даних закрито
+2025-04-09 22:42:48.274 | INFO     | app.main:startup_event:35 - Запуск додатку...
+2025-04-09 22:42:48.275 | INFO     | app.main:startup_event:36 - База даних успішно ініціалізована
+2025-04-09 22:44:56.729 | INFO     | app.main:run_scraper_task:64 - Запуск скрапера для 1 сторінок
+2025-04-09 22:44:56.733 | INFO     | app.main:run_scraper_task:65 - Скрапер завершив роботу
+2025-04-09 22:45:15.154 | INFO     | app.main:run_scraper_task:64 - Запуск скрапера для 10 сторінок
+2025-04-09 22:45:15.156 | INFO     | app.main:run_scraper_task:65 - Скрапер завершив роботу
+2025-04-09 22:51:22.844 | INFO     | app.main:shutdown_event:41 - Завершення роботи додатку...
+2025-04-09 22:51:22.850 | INFO     | app.main:shutdown_event:42 - З'єднання з базою даних закрито
+2025-04-10 09:02:05.189 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:02:35.473 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f7890daa843f98f8b6c930, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:02:37.096 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:03:07.331 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 67f7892d500ba88f49dbfa9d, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno 111] Connection refused')>]>
+2025-04-10 09:03:08.652 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:03:38.879 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f7894ca223eaf06a14940c, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:03:40.264 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:04:10.446 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f7896ce3459b05f7243dc1, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:04:11.785 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:04:41.998 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f7898b06637cfd5135d6a9, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:04:43.370 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:05:13.584 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f789ab1083b28b45bfa53f, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:05:14.953 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:05:45.172 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f789cac0b39bdec1f5205c, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:05:46.536 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:06:16.990 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f789ea2d70139d6ac73333, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:06:18.355 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:06:48.816 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78a0afc49e33f3c64b54e, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:06:50.370 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:07:20.585 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78a2a3a715adaa2ffa127, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:07:22.185 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:07:52.638 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78a4ac6da3eb80ab43bdb, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:07:54.065 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:08:24.211 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78a6a8a0349525cd115ad, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:08:26.415 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:08:56.734 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78a8a3b08da8cfd01c2d7, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:08:58.178 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:09:28.277 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78aaac582e14dceaaf8a2, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:09:29.728 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:09:59.940 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78ac95c8f93060995884b, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:10:01.845 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:10:32.324 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78ae9385278cb76c9cb4f, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:10:33.676 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:11:03.865 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78b09396ac8015f9cee9b, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:11:05.524 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:11:35.746 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78b2931f0ffea9cd078f6, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:11:37.098 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:12:07.259 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78b4917b8e8694d9ca668, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:12:08.830 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:12:39.290 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78b68df22e8e8a73ee005, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:12:40.625 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:13:11.036 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78b88aebffd7275344fe0, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:13:12.570 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:13:42.853 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78ba87c528bfab9e7f5bf, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:13:44.304 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:14:14.618 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78bc8c1999c21e49a4da6, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno 111] Connection refused')>]>
+2025-04-10 09:14:15.966 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:14:46.358 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78be7330b2ebc07876be6, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:14:47.846 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:15:18.157 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78c0771e1c1f071846227, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:15:19.877 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:15:49.937 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78c27b34f55615f203f53, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:15:51.724 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:16:22.040 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78c47070dd22d196bdec1, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:16:23.433 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:16:53.652 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78c67e782f0d5953959ab, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:16:55.029 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:17:25.280 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78c8724caad9ffd765cb5, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:17:26.693 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:17:56.938 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78ca60a9bb8c82f254980, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:17:58.278 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:18:28.670 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78cc6eb981d53efe04b58, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:18:30.436 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:19:00.716 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78ce6f57d88c76e6ff4c3, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:19:02.069 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:19:32.403 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78d06efe7c945cc6d90c7, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:19:33.894 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:20:04.360 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78d25e94bbca92ec35989, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:20:06.006 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:20:36.233 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78d4622586a912f54a7fe, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:20:37.584 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:21:07.819 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78d659319150841f87c70, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:21:09.245 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:21:39.492 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78d85dede2921ff6b4973, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:21:41.700 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:22:12.086 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78da5979d699f527386df, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:22:13.469 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:22:43.521 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78dc5c70761e24bcc98ba, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:22:45.437 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:23:15.828 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78de54bc28816fc838a94, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:23:17.358 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:23:47.472 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78e05fb772ffb77defd19, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:23:48.869 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:24:19.213 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f78e2448304576ecd02900, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 09:33:02.764 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 09:33:03.299 | INFO     | app.db.database:init_db:50 - Успішно підключено до MongoDB: mongodb://mongodb:27017, база даних: car_marketplace
+2025-04-10 09:33:03.299 | INFO     | app.main:startup_event:44 - База даних успішно ініціалізована
+2025-04-10 09:34:45.441 | INFO     | app.main:shutdown_event:49 - Завершення роботи додатку...
+2025-04-10 09:34:45.446 | INFO     | app.db.database:close_db:64 - Підключення до MongoDB закрито
+2025-04-10 09:34:45.446 | INFO     | app.main:shutdown_event:51 - З'єднання з базою даних закрито
+2025-04-10 13:04:08.479 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 13:04:09.512 | INFO     | app.db.database:init_db:50 - Успішно підключено до MongoDB: mongodb://mongodb:27017, база даних: car_marketplace
+2025-04-10 13:04:09.513 | INFO     | app.main:startup_event:44 - База даних успішно ініціалізована
+2025-04-10 13:09:20.709 | INFO     | app.main:shutdown_event:49 - Завершення роботи додатку...
+2025-04-10 13:09:20.715 | INFO     | app.db.database:close_db:64 - Підключення до MongoDB закрито
+2025-04-10 13:09:20.715 | INFO     | app.main:shutdown_event:51 - З'єднання з базою даних закрито
+2025-04-10 13:10:27.717 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 13:10:57.919 | ERROR    | app.db.database:init_db:53 - Помилка підключення до MongoDB: mongodb:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 67f7c34318c1c98520c4bf13, topology_type: Unknown, servers: [<ServerDescription ('mongodb', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongodb:27017: [Errno -2] Name or service not known')>]>
+2025-04-10 13:10:59.678 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 13:11:00.704 | INFO     | app.db.database:init_db:50 - Успішно підключено до MongoDB: mongodb://mongodb:27017, база даних: car_marketplace
+2025-04-10 13:11:00.705 | INFO     | app.main:startup_event:44 - База даних успішно ініціалізована
+2025-04-10 13:12:58.053 | INFO     | app.main:shutdown_event:49 - Завершення роботи додатку...
+2025-04-10 13:12:58.062 | INFO     | app.db.database:close_db:64 - Підключення до MongoDB закрито
+2025-04-10 13:12:58.062 | INFO     | app.main:shutdown_event:51 - З'єднання з базою даних закрито
+2025-04-10 13:12:59.921 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 13:13:00.979 | INFO     | app.db.database:init_db:50 - Успішно підключено до MongoDB: mongodb://mongodb:27017, база даних: car_marketplace
+2025-04-10 13:13:00.980 | INFO     | app.main:startup_event:44 - База даних успішно ініціалізована
+2025-04-10 13:27:21.734 | INFO     | app.main:shutdown_event:49 - Завершення роботи додатку...
+2025-04-10 13:27:21.742 | INFO     | app.db.database:close_db:64 - Підключення до MongoDB закрито
+2025-04-10 13:27:21.744 | INFO     | app.main:shutdown_event:51 - З'єднання з базою даних закрито
+2025-04-10 13:27:22.910 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 13:27:22.917 | INFO     | app.db.database:init_db:50 - Успішно підключено до MongoDB: mongodb://mongodb:27017, база даних: car_marketplace
+2025-04-10 13:27:22.918 | INFO     | app.main:startup_event:44 - База даних успішно ініціалізована
+2025-04-10 13:32:16.081 | ERROR    | app.main:get_cars:124 - Помилка при отриманні списку автомобілів: $sort key ordering must be 1 (for ascending) or -1 (for descending), full error: {'ok': 0.0, 'errmsg': '$sort key ordering must be 1 (for ascending) or -1 (for descending)', 'code': 15975, 'codeName': 'Location15975'}
+2025-04-10 13:32:18.088 | ERROR    | app.main:get_cars:124 - Помилка при отриманні списку автомобілів: $sort key ordering must be 1 (for ascending) or -1 (for descending), full error: {'ok': 0.0, 'errmsg': '$sort key ordering must be 1 (for ascending) or -1 (for descending)', 'code': 15975, 'codeName': 'Location15975'}
+2025-04-10 13:32:34.489 | ERROR    | app.main:get_cars:124 - Помилка при отриманні списку автомобілів: $sort key ordering must be 1 (for ascending) or -1 (for descending), full error: {'ok': 0.0, 'errmsg': '$sort key ordering must be 1 (for ascending) or -1 (for descending)', 'code': 15975, 'codeName': 'Location15975'}
+2025-04-10 13:38:50.163 | INFO     | app.main:shutdown_event:49 - Завершення роботи додатку...
+2025-04-10 13:38:50.169 | INFO     | app.db.database:close_db:64 - Підключення до MongoDB закрито
+2025-04-10 13:38:50.169 | INFO     | app.main:shutdown_event:51 - З'єднання з базою даних закрито
+2025-04-10 13:38:50.891 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 13:38:50.900 | INFO     | app.db.database:init_db:50 - Успішно підключено до MongoDB: mongodb://mongodb:27017, база даних: car_marketplace
+2025-04-10 13:38:50.900 | INFO     | app.main:startup_event:44 - База даних успішно ініціалізована
+2025-04-10 13:39:14.223 | INFO     | app.main:shutdown_event:49 - Завершення роботи додатку...
+2025-04-10 13:39:14.232 | INFO     | app.db.database:close_db:64 - Підключення до MongoDB закрито
+2025-04-10 13:39:14.233 | INFO     | app.main:shutdown_event:51 - З'єднання з базою даних закрито
+2025-04-10 13:43:31.559 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 13:43:31.578 | INFO     | app.db.database:init_db:50 - Успішно підключено до MongoDB: mongodb://mongodb:27017, база даних: car_marketplace
+2025-04-10 13:43:31.578 | INFO     | app.main:startup_event:44 - База даних успішно ініціалізована
+2025-04-10 13:45:24.275 | INFO     | app.main:shutdown_event:49 - Завершення роботи додатку...
+2025-04-10 13:45:24.289 | INFO     | app.db.database:close_db:64 - Підключення до MongoDB закрито
+2025-04-10 13:45:24.291 | INFO     | app.main:shutdown_event:51 - З'єднання з базою даних закрито
+2025-04-10 13:45:25.285 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 13:45:25.294 | INFO     | app.db.database:init_db:50 - Успішно підключено до MongoDB: mongodb://mongodb:27017, база даних: car_marketplace
+2025-04-10 13:45:25.294 | INFO     | app.main:startup_event:44 - База даних успішно ініціалізована
+2025-04-10 13:45:45.951 | INFO     | app.main:shutdown_event:49 - Завершення роботи додатку...
+2025-04-10 13:45:45.957 | INFO     | app.db.database:close_db:64 - Підключення до MongoDB закрито
+2025-04-10 13:45:45.958 | INFO     | app.main:shutdown_event:51 - З'єднання з базою даних закрито
+2025-04-10 13:45:46.806 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 13:45:46.816 | INFO     | app.db.database:init_db:50 - Успішно підключено до MongoDB: mongodb://mongodb:27017, база даних: car_marketplace
+2025-04-10 13:45:46.816 | INFO     | app.main:startup_event:44 - База даних успішно ініціалізована
+2025-04-10 13:45:48.993 | INFO     | app.main:shutdown_event:49 - Завершення роботи додатку...
+2025-04-10 13:45:49.000 | INFO     | app.db.database:close_db:64 - Підключення до MongoDB закрито
+2025-04-10 13:45:49.000 | INFO     | app.main:shutdown_event:51 - З'єднання з базою даних закрито
+2025-04-10 13:45:50.034 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 13:45:50.042 | INFO     | app.db.database:init_db:50 - Успішно підключено до MongoDB: mongodb://mongodb:27017, база даних: car_marketplace
+2025-04-10 13:45:50.042 | INFO     | app.main:startup_event:44 - База даних успішно ініціалізована
+2025-04-10 15:02:44.187 | INFO     | app.main:shutdown_event:49 - Завершення роботи додатку...
+2025-04-10 15:02:44.195 | INFO     | app.db.database:close_db:64 - Підключення до MongoDB закрито
+2025-04-10 15:02:44.196 | INFO     | app.main:shutdown_event:51 - З'єднання з базою даних закрито
+2025-04-10 15:02:50.198 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 15:02:51.235 | INFO     | app.db.database:init_db:50 - Успішно підключено до MongoDB: mongodb://mongodb:27017, база даних: car_marketplace
+2025-04-10 15:02:51.236 | INFO     | app.main:startup_event:44 - База даних успішно ініціалізована
+2025-04-10 19:16:15.924 | INFO     | app.main:shutdown_event:49 - Завершення роботи додатку...
+2025-04-10 19:16:15.939 | INFO     | app.db.database:close_db:64 - Підключення до MongoDB закрито
+2025-04-10 19:16:15.940 | INFO     | app.main:shutdown_event:51 - З'єднання з базою даних закрито
+2025-04-10 19:16:19.110 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 19:16:20.152 | INFO     | app.db.database:init_db:50 - Успішно підключено до MongoDB: mongodb://mongodb:27017, база даних: car_marketplace
+2025-04-10 19:16:20.154 | INFO     | app.main:startup_event:44 - База даних успішно ініціалізована
+2025-04-10 19:16:24.174 | INFO     | app.main:shutdown_event:49 - Завершення роботи додатку...
+2025-04-10 19:16:24.183 | INFO     | app.db.database:close_db:64 - Підключення до MongoDB закрито
+2025-04-10 19:16:24.184 | INFO     | app.main:shutdown_event:51 - З'єднання з базою даних закрито
+2025-04-10 19:16:25.149 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-10 19:16:25.159 | INFO     | app.db.database:init_db:50 - Успішно підключено до MongoDB: mongodb://mongodb:27017, база даних: car_marketplace
+2025-04-10 19:16:25.160 | INFO     | app.main:startup_event:44 - База даних успішно ініціалізована
+2025-04-10 19:17:45.730 | INFO     | app.scraper.auto_ria:scrape_cars:229 - Початок скрапінгу 3 сторінок з auto.ria.com
+2025-04-10 19:17:45.732 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 1 з 3
+2025-04-10 19:17:45.733 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=1
+2025-04-10 19:17:46.553 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2016
+2025-04-10 19:17:46.554 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Toyota Camry 2019
+2025-04-10 19:17:46.554 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz G-Class 2025
+2025-04-10 19:17:46.555 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz E-Class 2020
+2025-04-10 19:17:46.556 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X3 2010
+2025-04-10 19:17:46.557 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GL-Class 2012
+2025-04-10 19:17:46.558 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2020
+2025-04-10 19:17:46.558 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2.0 TDI DSG (150 к.с.) 2025
+2025-04-10 19:17:46.559 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2023
+2025-04-10 19:17:46.560 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4 2025
+2025-04-10 19:17:46.560 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2022
+2025-04-10 19:17:46.561 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X3 2018
+2025-04-10 19:17:46.562 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2019
+2025-04-10 19:17:46.562 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2021
+2025-04-10 19:17:46.563 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2021
+2025-04-10 19:17:46.563 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 5 Series 2012
+2025-04-10 19:17:46.564 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mazda CX-5 2016
+2025-04-10 19:17:46.565 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Kia Sportage 2015
+2025-04-10 19:17:46.565 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 5 Series 2010
+2025-04-10 19:17:46.566 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2016
+2025-04-10 19:17:46.566 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 1
+2025-04-10 19:17:46.566 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Volkswagen Touareg
+2025-04-10 19:17:46.573 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Volkswagen Touareg 2016
+2025-04-10 19:17:46.574 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: Toyota Camry
+2025-04-10 19:17:46.575 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Toyota Camry 2019
+2025-04-10 19:17:46.575 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Mercedes-Benz G-Class
+2025-04-10 19:17:46.576 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Mercedes-Benz G-Class 2025
+2025-04-10 19:17:46.576 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Mercedes-Benz E-Class
+2025-04-10 19:17:46.577 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Mercedes-Benz E-Class 2020
+2025-04-10 19:17:46.577 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: BMW X3
+2025-04-10 19:17:46.578 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: BMW X3 2010
+2025-04-10 19:17:46.578 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Mercedes-Benz GL-Class
+2025-04-10 19:17:46.579 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Mercedes-Benz GL-Class 2012
+2025-04-10 19:17:46.579 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Skoda Octavia
+2025-04-10 19:17:46.580 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Skoda Octavia 2020
+2025-04-10 19:17:46.580 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: Skoda Octavia 2.0 TDI DSG (150 к.с.)
+2025-04-10 19:17:46.581 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Skoda Octavia 2.0 TDI DSG (150 к.с.) 2025
+2025-04-10 19:17:46.581 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Volkswagen Touareg
+2025-04-10 19:17:46.582 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Volkswagen Touareg 2023
+2025-04-10 19:17:46.582 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4
+2025-04-10 19:17:46.583 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4 2025
+2025-04-10 19:17:46.583 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: Volkswagen Touareg
+2025-04-10 19:17:46.584 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Volkswagen Touareg 2022
+2025-04-10 19:17:46.584 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: BMW X3
+2025-04-10 19:17:46.585 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: BMW X3 2018
+2025-04-10 19:17:46.585 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: Audi e-tron
+2025-04-10 19:17:46.586 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi e-tron 2019
+2025-04-10 19:17:46.586 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Audi e-tron
+2025-04-10 19:17:46.587 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi e-tron 2021
+2025-04-10 19:17:46.587 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Skoda Octavia
+2025-04-10 19:17:46.588 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Skoda Octavia 2021
+2025-04-10 19:17:46.588 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: BMW 5 Series
+2025-04-10 19:17:46.589 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: BMW 5 Series 2012
+2025-04-10 19:17:46.589 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: Mazda CX-5
+2025-04-10 19:17:46.590 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Mazda CX-5 2016
+2025-04-10 19:17:46.590 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: Kia Sportage
+2025-04-10 19:17:46.591 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Kia Sportage 2015
+2025-04-10 19:17:46.591 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: BMW 5 Series
+2025-04-10 19:17:46.592 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: BMW 5 Series 2010
+2025-04-10 19:17:46.592 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: BMW X5
+2025-04-10 19:17:46.593 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: BMW X5 2016
+2025-04-10 19:17:48.595 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 2 з 3
+2025-04-10 19:17:48.596 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=2
+2025-04-10 19:17:49.754 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mazda CX-5 2022
+2025-04-10 19:17:49.755 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2016
+2025-04-10 19:17:49.756 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Kia Sportage 2019
+2025-04-10 19:17:49.756 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A6 2018
+2025-04-10 19:17:49.757 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2019
+2025-04-10 19:17:49.758 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus GX 2012
+2025-04-10 19:17:49.758 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2017
+2025-04-10 19:17:49.759 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 3 Series 2024
+2025-04-10 19:17:49.760 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Land Rover Range Rover Sport 2018
+2025-04-10 19:17:49.760 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Kia Sportage 2019
+2025-04-10 19:17:49.761 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen e-Golf 2018
+2025-04-10 19:17:49.761 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Tesla Model S 2022
+2025-04-10 19:17:49.762 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q5 2022
+2025-04-10 19:17:49.763 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2016
+2025-04-10 19:17:49.763 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Tesla Model Y 2023
+2025-04-10 19:17:49.764 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GLE-Class 2017
+2025-04-10 19:17:49.765 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz S-Class 2020
+2025-04-10 19:17:49.765 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q5 2014
+2025-04-10 19:17:49.766 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A6 2020
+2025-04-10 19:17:49.767 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus LX 2019
+2025-04-10 19:17:49.767 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 2
+2025-04-10 19:17:49.767 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Mazda CX-5
+2025-04-10 19:17:49.768 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Mazda CX-5 2022
+2025-04-10 19:17:49.769 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: Audi Q7
+2025-04-10 19:17:49.770 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi Q7 2016
+2025-04-10 19:17:49.770 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Kia Sportage
+2025-04-10 19:17:49.771 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Kia Sportage 2019
+2025-04-10 19:17:49.771 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Audi A6
+2025-04-10 19:17:49.772 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi A6 2018
+2025-04-10 19:17:49.772 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: BMW X5
+2025-04-10 19:17:49.773 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: BMW X5 2019
+2025-04-10 19:17:49.773 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Lexus GX
+2025-04-10 19:17:49.775 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Lexus GX 2012
+2025-04-10 19:17:49.775 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Audi Q7
+2025-04-10 19:17:49.776 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi Q7 2017
+2025-04-10 19:17:49.777 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: BMW 3 Series
+2025-04-10 19:17:49.778 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: BMW 3 Series 2024
+2025-04-10 19:17:49.778 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Land Rover Range Rover Sport
+2025-04-10 19:17:49.779 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Land Rover Range Rover Sport 2018
+2025-04-10 19:17:49.779 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Kia Sportage
+2025-04-10 19:17:49.780 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Kia Sportage 2019
+2025-04-10 19:17:49.780 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: Volkswagen e-Golf
+2025-04-10 19:17:49.781 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Volkswagen e-Golf 2018
+2025-04-10 19:17:49.781 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: Tesla Model S
+2025-04-10 19:17:49.782 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Tesla Model S 2022
+2025-04-10 19:17:49.782 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: Audi Q5
+2025-04-10 19:17:49.783 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi Q5 2022
+2025-04-10 19:17:49.783 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Audi Q7
+2025-04-10 19:17:49.784 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi Q7 2016
+2025-04-10 19:17:49.784 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Tesla Model Y
+2025-04-10 19:17:49.785 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Tesla Model Y 2023
+2025-04-10 19:17:49.785 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: Mercedes-Benz GLE-Class
+2025-04-10 19:17:49.786 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Mercedes-Benz GLE-Class 2017
+2025-04-10 19:17:49.786 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: Mercedes-Benz S-Class
+2025-04-10 19:17:49.787 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Mercedes-Benz S-Class 2020
+2025-04-10 19:17:49.787 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: Audi Q5
+2025-04-10 19:17:49.788 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi Q5 2014
+2025-04-10 19:17:49.788 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: Audi A6
+2025-04-10 19:17:49.789 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi A6 2020
+2025-04-10 19:17:49.789 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: Lexus LX
+2025-04-10 19:17:49.790 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Lexus LX 2019
+2025-04-10 19:17:51.792 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 3 з 3
+2025-04-10 19:17:51.796 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=3
+2025-04-10 19:17:53.052 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A7 Sportback 2014
+2025-04-10 19:17:53.053 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2017
+2025-04-10 19:17:53.054 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Kia Sportage 2013
+2025-04-10 19:17:53.055 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4 2025
+2025-04-10 19:17:53.055 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: ВАЗ 2110 2005
+2025-04-10 19:17:53.056 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD 2025
+2025-04-10 19:17:53.057 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Toyota Corolla 2020
+2025-04-10 19:17:53.057 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Maserati Levante 2019
+2025-04-10 19:17:53.058 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2015
+2025-04-10 19:17:53.058 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2021
+2025-04-10 19:17:53.059 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Nissan Rogue 2024
+2025-04-10 19:17:53.060 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Toyota Land Cruiser Prado 2008
+2025-04-10 19:17:53.060 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2022
+2025-04-10 19:17:53.061 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Porsche Cayenne 2023
+2025-04-10 19:17:53.062 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GLE-Class 2021
+2025-04-10 19:17:53.062 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz S-Class 2018
+2025-04-10 19:17:53.063 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X7 2022
+2025-04-10 19:17:53.063 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 5 Series 2011
+2025-04-10 19:17:53.064 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 7 Series 2022
+2025-04-10 19:17:53.065 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 3 Series 2019
+2025-04-10 19:17:53.065 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 3
+2025-04-10 19:17:53.065 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Audi A7 Sportback
+2025-04-10 19:17:53.068 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi A7 Sportback 2014
+2025-04-10 19:17:53.068 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: Audi Q7
+2025-04-10 19:17:53.069 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi Q7 2017
+2025-04-10 19:17:53.069 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Kia Sportage
+2025-04-10 19:17:53.070 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Kia Sportage 2013
+2025-04-10 19:17:53.070 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4
+2025-04-10 19:17:53.071 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4 2025
+2025-04-10 19:17:53.071 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: ВАЗ 2110
+2025-04-10 19:17:53.072 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: ВАЗ 2110 2005
+2025-04-10 19:17:53.073 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD
+2025-04-10 19:17:53.073 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD 2025
+2025-04-10 19:17:53.074 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Toyota Corolla
+2025-04-10 19:17:53.074 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Toyota Corolla 2020
+2025-04-10 19:17:53.075 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: Maserati Levante
+2025-04-10 19:17:53.076 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Maserati Levante 2019
+2025-04-10 19:17:53.076 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Audi Q7
+2025-04-10 19:17:53.077 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi Q7 2015
+2025-04-10 19:17:53.077 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Audi e-tron
+2025-04-10 19:17:53.078 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi e-tron 2021
+2025-04-10 19:17:53.078 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: Nissan Rogue
+2025-04-10 19:17:53.079 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Nissan Rogue 2024
+2025-04-10 19:17:53.079 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: Toyota Land Cruiser Prado
+2025-04-10 19:17:53.080 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Toyota Land Cruiser Prado 2008
+2025-04-10 19:17:53.080 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: BMW X5
+2025-04-10 19:17:53.081 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: BMW X5 2022
+2025-04-10 19:17:53.081 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Porsche Cayenne
+2025-04-10 19:17:53.082 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Porsche Cayenne 2023
+2025-04-10 19:17:53.082 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Mercedes-Benz GLE-Class
+2025-04-10 19:17:53.083 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Mercedes-Benz GLE-Class 2021
+2025-04-10 19:17:53.083 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: Mercedes-Benz S-Class
+2025-04-10 19:17:53.084 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Mercedes-Benz S-Class 2018
+2025-04-10 19:17:53.084 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: BMW X7
+2025-04-10 19:17:53.085 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: BMW X7 2022
+2025-04-10 19:17:53.085 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: BMW 5 Series
+2025-04-10 19:17:53.086 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: BMW 5 Series 2011
+2025-04-10 19:17:53.086 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: BMW 7 Series
+2025-04-10 19:17:53.087 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: BMW 7 Series 2022
+2025-04-10 19:17:53.087 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: BMW 3 Series
+2025-04-10 19:17:53.088 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: BMW 3 Series 2019
+2025-04-10 19:17:55.090 | INFO     | app.scraper.auto_ria:scrape_cars:249 - Скрапінг завершено. Збережено 60 автомобілів.
+2025-04-10 19:24:35.924 | INFO     | app.scraper.auto_ria:scrape_cars:229 - Початок скрапінгу 3 сторінок з auto.ria.com
+2025-04-10 19:24:35.931 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 1 з 3
+2025-04-10 19:24:35.932 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=1
+2025-04-10 19:24:36.493 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2016
+2025-04-10 19:24:36.529 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Toyota Camry 2019
+2025-04-10 19:24:36.530 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz G-Class 2025
+2025-04-10 19:24:36.531 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz E-Class 2020
+2025-04-10 19:24:36.532 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X3 2010
+2025-04-10 19:24:36.533 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GL-Class 2012
+2025-04-10 19:24:36.533 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2020
+2025-04-10 19:24:36.534 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2.0 TDI DSG (150 к.с.) 2025
+2025-04-10 19:24:36.535 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2023
+2025-04-10 19:24:36.536 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4 2025
+2025-04-10 19:24:36.537 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2022
+2025-04-10 19:24:36.538 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X3 2018
+2025-04-10 19:24:36.538 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2019
+2025-04-10 19:24:36.539 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2021
+2025-04-10 19:24:36.540 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2021
+2025-04-10 19:24:36.541 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 5 Series 2012
+2025-04-10 19:24:36.541 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mazda CX-5 2016
+2025-04-10 19:24:36.542 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Kia Sportage 2015
+2025-04-10 19:24:36.543 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 5 Series 2010
+2025-04-10 19:24:36.543 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2016
+2025-04-10 19:24:36.543 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 1
+2025-04-10 19:24:36.544 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Volkswagen Touareg
+2025-04-10 19:24:36.548 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen Touareg 2016
+2025-04-10 19:24:36.548 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: Toyota Camry
+2025-04-10 19:24:36.549 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Toyota Camry 2019
+2025-04-10 19:24:36.549 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Mercedes-Benz G-Class
+2025-04-10 19:24:36.550 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz G-Class 2025
+2025-04-10 19:24:36.550 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Mercedes-Benz E-Class
+2025-04-10 19:24:36.551 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz E-Class 2020
+2025-04-10 19:24:36.551 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: BMW X3
+2025-04-10 19:24:36.552 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X3 2010
+2025-04-10 19:24:36.552 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Mercedes-Benz GL-Class
+2025-04-10 19:24:36.553 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz GL-Class 2012
+2025-04-10 19:24:36.553 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Skoda Octavia
+2025-04-10 19:24:36.554 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Octavia 2020
+2025-04-10 19:24:36.554 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: Skoda Octavia 2.0 TDI DSG (150 к.с.)
+2025-04-10 19:24:36.555 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Octavia 2.0 TDI DSG (150 к.с.) 2025
+2025-04-10 19:24:36.555 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Volkswagen Touareg
+2025-04-10 19:24:36.556 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen Touareg 2023
+2025-04-10 19:24:36.556 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4
+2025-04-10 19:24:36.557 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4 2025
+2025-04-10 19:24:36.557 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: Volkswagen Touareg
+2025-04-10 19:24:36.558 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen Touareg 2022
+2025-04-10 19:24:36.558 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: BMW X3
+2025-04-10 19:24:36.559 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X3 2018
+2025-04-10 19:24:36.559 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: Audi e-tron
+2025-04-10 19:24:36.560 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi e-tron 2019
+2025-04-10 19:24:36.560 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Audi e-tron
+2025-04-10 19:24:36.561 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi e-tron 2021
+2025-04-10 19:24:36.561 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Skoda Octavia
+2025-04-10 19:24:36.562 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Octavia 2021
+2025-04-10 19:24:36.562 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: BMW 5 Series
+2025-04-10 19:24:36.563 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 5 Series 2012
+2025-04-10 19:24:36.563 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: Mazda CX-5
+2025-04-10 19:24:36.564 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mazda CX-5 2016
+2025-04-10 19:24:36.564 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: Kia Sportage
+2025-04-10 19:24:36.565 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Kia Sportage 2015
+2025-04-10 19:24:36.565 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: BMW 5 Series
+2025-04-10 19:24:36.566 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 5 Series 2010
+2025-04-10 19:24:36.567 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: BMW X5
+2025-04-10 19:24:36.568 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X5 2016
+2025-04-10 19:24:37.559 | INFO     | app.scraper.auto_ria:scrape_cars:229 - Початок скрапінгу 3 сторінок з auto.ria.com
+2025-04-10 19:24:37.560 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 1 з 3
+2025-04-10 19:24:37.561 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=1
+2025-04-10 19:24:38.062 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2016
+2025-04-10 19:24:38.063 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Toyota Camry 2019
+2025-04-10 19:24:38.064 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz G-Class 2025
+2025-04-10 19:24:38.065 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz E-Class 2020
+2025-04-10 19:24:38.065 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X3 2010
+2025-04-10 19:24:38.066 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GL-Class 2012
+2025-04-10 19:24:38.067 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2020
+2025-04-10 19:24:38.067 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2.0 TDI DSG (150 к.с.) 2025
+2025-04-10 19:24:38.068 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2023
+2025-04-10 19:24:38.068 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4 2025
+2025-04-10 19:24:38.069 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2022
+2025-04-10 19:24:38.070 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X3 2018
+2025-04-10 19:24:38.070 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2019
+2025-04-10 19:24:38.071 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2021
+2025-04-10 19:24:38.072 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2021
+2025-04-10 19:24:38.072 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 5 Series 2012
+2025-04-10 19:24:38.073 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mazda CX-5 2016
+2025-04-10 19:24:38.074 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Kia Sportage 2015
+2025-04-10 19:24:38.074 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 5 Series 2010
+2025-04-10 19:24:38.075 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2016
+2025-04-10 19:24:38.075 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 1
+2025-04-10 19:24:38.075 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Volkswagen Touareg
+2025-04-10 19:24:38.077 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen Touareg 2016
+2025-04-10 19:24:38.077 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: Toyota Camry
+2025-04-10 19:24:38.078 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Toyota Camry 2019
+2025-04-10 19:24:38.078 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Mercedes-Benz G-Class
+2025-04-10 19:24:38.079 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz G-Class 2025
+2025-04-10 19:24:38.080 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Mercedes-Benz E-Class
+2025-04-10 19:24:38.081 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz E-Class 2020
+2025-04-10 19:24:38.081 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: BMW X3
+2025-04-10 19:24:38.082 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X3 2010
+2025-04-10 19:24:38.082 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Mercedes-Benz GL-Class
+2025-04-10 19:24:38.083 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz GL-Class 2012
+2025-04-10 19:24:38.083 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Skoda Octavia
+2025-04-10 19:24:38.083 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Octavia 2020
+2025-04-10 19:24:38.084 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: Skoda Octavia 2.0 TDI DSG (150 к.с.)
+2025-04-10 19:24:38.084 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Octavia 2.0 TDI DSG (150 к.с.) 2025
+2025-04-10 19:24:38.084 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Volkswagen Touareg
+2025-04-10 19:24:38.085 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen Touareg 2023
+2025-04-10 19:24:38.085 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4
+2025-04-10 19:24:38.086 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4 2025
+2025-04-10 19:24:38.086 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: Volkswagen Touareg
+2025-04-10 19:24:38.087 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen Touareg 2022
+2025-04-10 19:24:38.087 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: BMW X3
+2025-04-10 19:24:38.088 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X3 2018
+2025-04-10 19:24:38.088 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: Audi e-tron
+2025-04-10 19:24:38.089 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi e-tron 2019
+2025-04-10 19:24:38.089 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Audi e-tron
+2025-04-10 19:24:38.090 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi e-tron 2021
+2025-04-10 19:24:38.090 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Skoda Octavia
+2025-04-10 19:24:38.091 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Octavia 2021
+2025-04-10 19:24:38.092 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: BMW 5 Series
+2025-04-10 19:24:38.092 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 5 Series 2012
+2025-04-10 19:24:38.093 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: Mazda CX-5
+2025-04-10 19:24:38.094 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mazda CX-5 2016
+2025-04-10 19:24:38.094 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: Kia Sportage
+2025-04-10 19:24:38.095 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Kia Sportage 2015
+2025-04-10 19:24:38.095 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: BMW 5 Series
+2025-04-10 19:24:38.096 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 5 Series 2010
+2025-04-10 19:24:38.096 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: BMW X5
+2025-04-10 19:24:38.097 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X5 2016
+2025-04-10 19:24:38.570 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 2 з 3
+2025-04-10 19:24:38.571 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=2
+2025-04-10 19:24:38.912 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mazda CX-5 2022
+2025-04-10 19:24:38.914 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2016
+2025-04-10 19:24:38.914 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Kia Sportage 2019
+2025-04-10 19:24:38.915 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A6 2018
+2025-04-10 19:24:38.916 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2019
+2025-04-10 19:24:38.916 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus GX 2012
+2025-04-10 19:24:38.917 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2017
+2025-04-10 19:24:38.918 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 3 Series 2024
+2025-04-10 19:24:38.918 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Land Rover Range Rover Sport 2018
+2025-04-10 19:24:38.919 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Kia Sportage 2019
+2025-04-10 19:24:38.919 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen e-Golf 2018
+2025-04-10 19:24:38.920 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Tesla Model S 2022
+2025-04-10 19:24:38.921 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q5 2022
+2025-04-10 19:24:38.922 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2016
+2025-04-10 19:24:38.922 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Tesla Model Y 2023
+2025-04-10 19:24:38.923 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GLE-Class 2017
+2025-04-10 19:24:38.924 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz S-Class 2020
+2025-04-10 19:24:38.924 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q5 2014
+2025-04-10 19:24:38.925 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A6 2020
+2025-04-10 19:24:38.926 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus LX 2019
+2025-04-10 19:24:38.926 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 2
+2025-04-10 19:24:38.926 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Mazda CX-5
+2025-04-10 19:24:38.928 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mazda CX-5 2022
+2025-04-10 19:24:38.929 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: Audi Q7
+2025-04-10 19:24:38.930 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2016
+2025-04-10 19:24:38.930 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Kia Sportage
+2025-04-10 19:24:38.931 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Kia Sportage 2019
+2025-04-10 19:24:38.931 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Audi A6
+2025-04-10 19:24:38.932 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi A6 2018
+2025-04-10 19:24:38.932 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: BMW X5
+2025-04-10 19:24:38.933 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X5 2019
+2025-04-10 19:24:38.933 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Lexus GX
+2025-04-10 19:24:38.934 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Lexus GX 2012
+2025-04-10 19:24:38.934 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Audi Q7
+2025-04-10 19:24:38.935 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2017
+2025-04-10 19:24:38.935 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: BMW 3 Series
+2025-04-10 19:24:38.936 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 3 Series 2024
+2025-04-10 19:24:38.936 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Land Rover Range Rover Sport
+2025-04-10 19:24:38.937 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Land Rover Range Rover Sport 2018
+2025-04-10 19:24:38.937 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Kia Sportage
+2025-04-10 19:24:38.938 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Kia Sportage 2019
+2025-04-10 19:24:38.938 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: Volkswagen e-Golf
+2025-04-10 19:24:38.939 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen e-Golf 2018
+2025-04-10 19:24:38.939 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: Tesla Model S
+2025-04-10 19:24:38.940 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Tesla Model S 2022
+2025-04-10 19:24:38.940 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: Audi Q5
+2025-04-10 19:24:38.941 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q5 2022
+2025-04-10 19:24:38.941 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Audi Q7
+2025-04-10 19:24:38.942 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2016
+2025-04-10 19:24:38.942 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Tesla Model Y
+2025-04-10 19:24:38.943 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Tesla Model Y 2023
+2025-04-10 19:24:38.943 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: Mercedes-Benz GLE-Class
+2025-04-10 19:24:38.944 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz GLE-Class 2017
+2025-04-10 19:24:38.944 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: Mercedes-Benz S-Class
+2025-04-10 19:24:38.945 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz S-Class 2020
+2025-04-10 19:24:38.945 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: Audi Q5
+2025-04-10 19:24:38.946 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q5 2014
+2025-04-10 19:24:38.946 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: Audi A6
+2025-04-10 19:24:38.947 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi A6 2020
+2025-04-10 19:24:38.948 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: Lexus LX
+2025-04-10 19:24:38.948 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Lexus LX 2019
+2025-04-10 19:24:40.103 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 2 з 3
+2025-04-10 19:24:40.104 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=2
+2025-04-10 19:24:40.773 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mazda CX-5 2022
+2025-04-10 19:24:40.774 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2016
+2025-04-10 19:24:40.774 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Kia Sportage 2019
+2025-04-10 19:24:40.775 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A6 2018
+2025-04-10 19:24:40.776 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2019
+2025-04-10 19:24:40.777 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus GX 2012
+2025-04-10 19:24:40.777 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2017
+2025-04-10 19:24:40.778 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 3 Series 2024
+2025-04-10 19:24:40.778 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Land Rover Range Rover Sport 2018
+2025-04-10 19:24:40.779 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Kia Sportage 2019
+2025-04-10 19:24:40.780 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen e-Golf 2018
+2025-04-10 19:24:40.780 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Tesla Model S 2022
+2025-04-10 19:24:40.781 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q5 2022
+2025-04-10 19:24:40.782 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2016
+2025-04-10 19:24:40.782 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Tesla Model Y 2023
+2025-04-10 19:24:40.783 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GLE-Class 2017
+2025-04-10 19:24:40.784 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz S-Class 2020
+2025-04-10 19:24:40.784 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q5 2014
+2025-04-10 19:24:40.785 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A6 2020
+2025-04-10 19:24:40.785 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus LX 2019
+2025-04-10 19:24:40.786 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 2
+2025-04-10 19:24:40.786 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Mazda CX-5
+2025-04-10 19:24:40.789 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mazda CX-5 2022
+2025-04-10 19:24:40.789 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: Audi Q7
+2025-04-10 19:24:40.790 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2016
+2025-04-10 19:24:40.790 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Kia Sportage
+2025-04-10 19:24:40.791 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Kia Sportage 2019
+2025-04-10 19:24:40.792 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Audi A6
+2025-04-10 19:24:40.792 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi A6 2018
+2025-04-10 19:24:40.793 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: BMW X5
+2025-04-10 19:24:40.793 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X5 2019
+2025-04-10 19:24:40.794 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Lexus GX
+2025-04-10 19:24:40.795 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Lexus GX 2012
+2025-04-10 19:24:40.795 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Audi Q7
+2025-04-10 19:24:40.796 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2017
+2025-04-10 19:24:40.796 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: BMW 3 Series
+2025-04-10 19:24:40.797 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 3 Series 2024
+2025-04-10 19:24:40.797 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Land Rover Range Rover Sport
+2025-04-10 19:24:40.798 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Land Rover Range Rover Sport 2018
+2025-04-10 19:24:40.798 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Kia Sportage
+2025-04-10 19:24:40.799 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Kia Sportage 2019
+2025-04-10 19:24:40.799 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: Volkswagen e-Golf
+2025-04-10 19:24:40.800 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen e-Golf 2018
+2025-04-10 19:24:40.800 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: Tesla Model S
+2025-04-10 19:24:40.801 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Tesla Model S 2022
+2025-04-10 19:24:40.801 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: Audi Q5
+2025-04-10 19:24:40.802 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q5 2022
+2025-04-10 19:24:40.802 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Audi Q7
+2025-04-10 19:24:40.803 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2016
+2025-04-10 19:24:40.803 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Tesla Model Y
+2025-04-10 19:24:40.804 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Tesla Model Y 2023
+2025-04-10 19:24:40.804 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: Mercedes-Benz GLE-Class
+2025-04-10 19:24:40.805 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz GLE-Class 2017
+2025-04-10 19:24:40.805 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: Mercedes-Benz S-Class
+2025-04-10 19:24:40.806 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz S-Class 2020
+2025-04-10 19:24:40.806 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: Audi Q5
+2025-04-10 19:24:40.807 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q5 2014
+2025-04-10 19:24:40.808 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: Audi A6
+2025-04-10 19:24:40.808 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi A6 2020
+2025-04-10 19:24:40.809 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: Lexus LX
+2025-04-10 19:24:40.809 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Lexus LX 2019
+2025-04-10 19:24:40.949 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 3 з 3
+2025-04-10 19:24:40.951 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=3
+2025-04-10 19:24:41.293 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A7 Sportback 2014
+2025-04-10 19:24:41.295 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2017
+2025-04-10 19:24:41.295 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Kia Sportage 2013
+2025-04-10 19:24:41.296 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4 2025
+2025-04-10 19:24:41.297 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: ВАЗ 2110 2005
+2025-04-10 19:24:41.297 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD 2025
+2025-04-10 19:24:41.298 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Toyota Corolla 2020
+2025-04-10 19:24:41.299 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Maserati Levante 2019
+2025-04-10 19:24:41.299 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2015
+2025-04-10 19:24:41.300 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2021
+2025-04-10 19:24:41.301 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Nissan Rogue 2024
+2025-04-10 19:24:41.301 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Toyota Land Cruiser Prado 2008
+2025-04-10 19:24:41.302 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2022
+2025-04-10 19:24:41.302 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Porsche Cayenne 2023
+2025-04-10 19:24:41.303 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GLE-Class 2021
+2025-04-10 19:24:41.304 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz S-Class 2018
+2025-04-10 19:24:41.304 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X7 2022
+2025-04-10 19:24:41.305 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 5 Series 2011
+2025-04-10 19:24:41.305 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 7 Series 2022
+2025-04-10 19:24:41.306 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 3 Series 2019
+2025-04-10 19:24:41.306 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 3
+2025-04-10 19:24:41.306 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Audi A7 Sportback
+2025-04-10 19:24:41.308 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi A7 Sportback 2014
+2025-04-10 19:24:41.308 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: Audi Q7
+2025-04-10 19:24:41.309 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2017
+2025-04-10 19:24:41.310 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Kia Sportage
+2025-04-10 19:24:41.311 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Kia Sportage 2013
+2025-04-10 19:24:41.311 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4
+2025-04-10 19:24:41.312 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4 2025
+2025-04-10 19:24:41.312 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: ВАЗ 2110
+2025-04-10 19:24:41.313 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: ВАЗ 2110 2005
+2025-04-10 19:24:41.313 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD
+2025-04-10 19:24:41.314 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD 2025
+2025-04-10 19:24:41.314 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Toyota Corolla
+2025-04-10 19:24:41.315 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Toyota Corolla 2020
+2025-04-10 19:24:41.315 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: Maserati Levante
+2025-04-10 19:24:41.317 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Maserati Levante 2019
+2025-04-10 19:24:41.317 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Audi Q7
+2025-04-10 19:24:41.318 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2015
+2025-04-10 19:24:41.318 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Audi e-tron
+2025-04-10 19:24:41.319 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi e-tron 2021
+2025-04-10 19:24:41.319 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: Nissan Rogue
+2025-04-10 19:24:41.320 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Nissan Rogue 2024
+2025-04-10 19:24:41.320 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: Toyota Land Cruiser Prado
+2025-04-10 19:24:41.322 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Toyota Land Cruiser Prado 2008
+2025-04-10 19:24:41.323 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: BMW X5
+2025-04-10 19:24:41.324 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X5 2022
+2025-04-10 19:24:41.324 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Porsche Cayenne
+2025-04-10 19:24:41.325 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Porsche Cayenne 2023
+2025-04-10 19:24:41.326 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Mercedes-Benz GLE-Class
+2025-04-10 19:24:41.327 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz GLE-Class 2021
+2025-04-10 19:24:41.327 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: Mercedes-Benz S-Class
+2025-04-10 19:24:41.328 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz S-Class 2018
+2025-04-10 19:24:41.328 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: BMW X7
+2025-04-10 19:24:41.329 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X7 2022
+2025-04-10 19:24:41.329 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: BMW 5 Series
+2025-04-10 19:24:41.330 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 5 Series 2011
+2025-04-10 19:24:41.330 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: BMW 7 Series
+2025-04-10 19:24:41.331 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 7 Series 2022
+2025-04-10 19:24:41.332 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: BMW 3 Series
+2025-04-10 19:24:41.333 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 3 Series 2019
+2025-04-10 19:24:42.811 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 3 з 3
+2025-04-10 19:24:42.812 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=3
+2025-04-10 19:24:43.335 | INFO     | app.scraper.auto_ria:scrape_cars:249 - Скрапінг завершено. Збережено 60 автомобілів.
+2025-04-10 19:24:43.668 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A7 Sportback 2014
+2025-04-10 19:24:43.669 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2017
+2025-04-10 19:24:43.669 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Kia Sportage 2013
+2025-04-10 19:24:43.670 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4 2025
+2025-04-10 19:24:43.671 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: ВАЗ 2110 2005
+2025-04-10 19:24:43.671 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD 2025
+2025-04-10 19:24:43.672 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Toyota Corolla 2020
+2025-04-10 19:24:43.673 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Maserati Levante 2019
+2025-04-10 19:24:43.673 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2015
+2025-04-10 19:24:43.674 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2021
+2025-04-10 19:24:43.674 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Nissan Rogue 2024
+2025-04-10 19:24:43.675 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Toyota Land Cruiser Prado 2008
+2025-04-10 19:24:43.676 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2022
+2025-04-10 19:24:43.676 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Porsche Cayenne 2023
+2025-04-10 19:24:43.677 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GLE-Class 2021
+2025-04-10 19:24:43.678 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz S-Class 2018
+2025-04-10 19:24:43.678 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X7 2022
+2025-04-10 19:24:43.679 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 5 Series 2011
+2025-04-10 19:24:43.679 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 7 Series 2022
+2025-04-10 19:24:43.680 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 3 Series 2019
+2025-04-10 19:24:43.680 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 3
+2025-04-10 19:24:43.680 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Audi A7 Sportback
+2025-04-10 19:24:43.682 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi A7 Sportback 2014
+2025-04-10 19:24:43.682 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: Audi Q7
+2025-04-10 19:24:43.683 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2017
+2025-04-10 19:24:43.683 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Kia Sportage
+2025-04-10 19:24:43.684 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Kia Sportage 2013
+2025-04-10 19:24:43.685 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4
+2025-04-10 19:24:43.685 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4 2025
+2025-04-10 19:24:43.686 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: ВАЗ 2110
+2025-04-10 19:24:43.687 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: ВАЗ 2110 2005
+2025-04-10 19:24:43.687 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD
+2025-04-10 19:24:43.688 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD 2025
+2025-04-10 19:24:43.688 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Toyota Corolla
+2025-04-10 19:24:43.689 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Toyota Corolla 2020
+2025-04-10 19:24:43.689 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: Maserati Levante
+2025-04-10 19:24:43.690 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Maserati Levante 2019
+2025-04-10 19:24:43.690 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Audi Q7
+2025-04-10 19:24:43.691 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2015
+2025-04-10 19:24:43.691 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Audi e-tron
+2025-04-10 19:24:43.692 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi e-tron 2021
+2025-04-10 19:24:43.692 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: Nissan Rogue
+2025-04-10 19:24:43.693 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Nissan Rogue 2024
+2025-04-10 19:24:43.693 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: Toyota Land Cruiser Prado
+2025-04-10 19:24:43.694 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Toyota Land Cruiser Prado 2008
+2025-04-10 19:24:43.694 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: BMW X5
+2025-04-10 19:24:43.695 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X5 2022
+2025-04-10 19:24:43.695 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Porsche Cayenne
+2025-04-10 19:24:43.696 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Porsche Cayenne 2023
+2025-04-10 19:24:43.696 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Mercedes-Benz GLE-Class
+2025-04-10 19:24:43.697 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz GLE-Class 2021
+2025-04-10 19:24:43.697 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: Mercedes-Benz S-Class
+2025-04-10 19:24:43.698 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz S-Class 2018
+2025-04-10 19:24:43.698 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: BMW X7
+2025-04-10 19:24:43.699 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X7 2022
+2025-04-10 19:24:43.700 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: BMW 5 Series
+2025-04-10 19:24:43.700 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 5 Series 2011
+2025-04-10 19:24:43.701 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: BMW 7 Series
+2025-04-10 19:24:43.702 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 7 Series 2022
+2025-04-10 19:24:43.702 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: BMW 3 Series
+2025-04-10 19:24:43.703 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 3 Series 2019
+2025-04-10 19:24:45.706 | INFO     | app.scraper.auto_ria:scrape_cars:249 - Скрапінг завершено. Збережено 60 автомобілів.
+2025-04-11 10:33:27.305 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-11 10:33:28.394 | INFO     | app.db.database:init_db:50 - Успішно підключено до MongoDB: mongodb://mongodb:27017, база даних: car_marketplace
+2025-04-11 10:33:28.396 | INFO     | app.main:startup_event:44 - База даних успішно ініціалізована
+2025-04-11 10:33:49.253 | INFO     | app.scraper.auto_ria:scrape_cars:229 - Початок скрапінгу 3 сторінок з auto.ria.com
+2025-04-11 10:33:49.255 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 1 з 3
+2025-04-11 10:33:49.256 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=1
+2025-04-11 10:33:50.943 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2016
+2025-04-11 10:33:50.944 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz G-Class 2025
+2025-04-11 10:33:50.945 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Nissan Juke 2011
+2025-04-11 10:33:50.946 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz E-Class 2020
+2025-04-11 10:33:50.946 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Infiniti Q50 2017
+2025-04-11 10:33:50.947 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2016
+2025-04-11 10:33:50.948 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2020
+2025-04-11 10:33:50.948 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2.0 TDI DSG (150 к.с.) 2025
+2025-04-11 10:33:50.949 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2023
+2025-04-11 10:33:50.950 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4 2025
+2025-04-11 10:33:50.950 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2021
+2025-04-11 10:33:50.951 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2022
+2025-04-11 10:33:50.952 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X3 2018
+2025-04-11 10:33:50.952 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2019
+2025-04-11 10:33:50.953 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2021
+2025-04-11 10:33:50.953 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2021
+2025-04-11 10:33:50.954 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mazda CX-5 2021
+2025-04-11 10:33:50.955 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 5 Series 2012
+2025-04-11 10:33:50.955 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mazda CX-5 2016
+2025-04-11 10:33:50.956 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 5 Series 2010
+2025-04-11 10:33:50.956 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 1
+2025-04-11 10:33:50.956 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Volkswagen Touareg
+2025-04-11 10:33:50.963 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Volkswagen Touareg 2016
+2025-04-11 10:33:50.964 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: Mercedes-Benz G-Class
+2025-04-11 10:33:50.966 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Mercedes-Benz G-Class 2025
+2025-04-11 10:33:50.966 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Nissan Juke
+2025-04-11 10:33:50.967 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Nissan Juke 2011
+2025-04-11 10:33:50.967 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Mercedes-Benz E-Class
+2025-04-11 10:33:50.968 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Mercedes-Benz E-Class 2020
+2025-04-11 10:33:50.968 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: Infiniti Q50
+2025-04-11 10:33:50.969 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Infiniti Q50 2017
+2025-04-11 10:33:50.969 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Skoda Octavia
+2025-04-11 10:33:50.970 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Skoda Octavia 2016
+2025-04-11 10:33:50.970 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Skoda Octavia
+2025-04-11 10:33:50.971 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Skoda Octavia 2020
+2025-04-11 10:33:50.971 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: Skoda Octavia 2.0 TDI DSG (150 к.с.)
+2025-04-11 10:33:50.972 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Skoda Octavia 2.0 TDI DSG (150 к.с.) 2025
+2025-04-11 10:33:50.972 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Volkswagen Touareg
+2025-04-11 10:33:50.974 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Volkswagen Touareg 2023
+2025-04-11 10:33:50.974 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4
+2025-04-11 10:33:50.975 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4 2025
+2025-04-11 10:33:50.976 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: Audi e-tron
+2025-04-11 10:33:50.977 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi e-tron 2021
+2025-04-11 10:33:50.977 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: Volkswagen Touareg
+2025-04-11 10:33:50.979 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Volkswagen Touareg 2022
+2025-04-11 10:33:50.979 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: BMW X3
+2025-04-11 10:33:50.981 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: BMW X3 2018
+2025-04-11 10:33:50.981 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Audi e-tron
+2025-04-11 10:33:50.982 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi e-tron 2019
+2025-04-11 10:33:50.982 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Audi e-tron
+2025-04-11 10:33:50.983 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi e-tron 2021
+2025-04-11 10:33:50.983 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: Skoda Octavia
+2025-04-11 10:33:50.984 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Skoda Octavia 2021
+2025-04-11 10:33:50.984 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: Mazda CX-5
+2025-04-11 10:33:50.985 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Mazda CX-5 2021
+2025-04-11 10:33:50.985 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: BMW 5 Series
+2025-04-11 10:33:50.986 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: BMW 5 Series 2012
+2025-04-11 10:33:50.986 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: Mazda CX-5
+2025-04-11 10:33:50.987 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Mazda CX-5 2016
+2025-04-11 10:33:50.987 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: BMW 5 Series
+2025-04-11 10:33:50.988 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: BMW 5 Series 2010
+2025-04-11 10:33:52.991 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 2 з 3
+2025-04-11 10:33:52.992 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=2
+2025-04-11 10:33:53.447 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus IS 2009
+2025-04-11 10:33:53.448 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2016
+2025-04-11 10:33:53.449 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mazda CX-5 2022
+2025-04-11 10:33:53.449 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus GX 2009
+2025-04-11 10:33:53.450 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2016
+2025-04-11 10:33:53.451 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Kia Sportage 2019
+2025-04-11 10:33:53.451 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A6 2018
+2025-04-11 10:33:53.452 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2019
+2025-04-11 10:33:53.452 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus GX 2012
+2025-04-11 10:33:53.453 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2017
+2025-04-11 10:33:53.454 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 3 Series 2024
+2025-04-11 10:33:53.454 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Land Rover Range Rover Sport 2018
+2025-04-11 10:33:53.455 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Kia Sportage 2019
+2025-04-11 10:33:53.456 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen e-Golf 2018
+2025-04-11 10:33:53.456 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Tesla Model S 2022
+2025-04-11 10:33:53.457 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q5 2022
+2025-04-11 10:33:53.458 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2016
+2025-04-11 10:33:53.458 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Tesla Model Y 2023
+2025-04-11 10:33:53.459 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Porsche Cayenne 2018
+2025-04-11 10:33:53.459 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Nissan Rogue 2017
+2025-04-11 10:33:53.460 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 2
+2025-04-11 10:33:53.460 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Lexus IS
+2025-04-11 10:33:53.461 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Lexus IS 2009
+2025-04-11 10:33:53.461 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: BMW X5
+2025-04-11 10:33:53.463 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: BMW X5 2016
+2025-04-11 10:33:53.463 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Mazda CX-5
+2025-04-11 10:33:53.464 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Mazda CX-5 2022
+2025-04-11 10:33:53.464 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Lexus GX
+2025-04-11 10:33:53.465 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Lexus GX 2009
+2025-04-11 10:33:53.465 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: Audi Q7
+2025-04-11 10:33:53.466 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi Q7 2016
+2025-04-11 10:33:53.466 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Kia Sportage
+2025-04-11 10:33:53.467 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Kia Sportage 2019
+2025-04-11 10:33:53.467 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Audi A6
+2025-04-11 10:33:53.468 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi A6 2018
+2025-04-11 10:33:53.469 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: BMW X5
+2025-04-11 10:33:53.469 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: BMW X5 2019
+2025-04-11 10:33:53.469 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Lexus GX
+2025-04-11 10:33:53.470 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Lexus GX 2012
+2025-04-11 10:33:53.471 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Audi Q7
+2025-04-11 10:33:53.471 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi Q7 2017
+2025-04-11 10:33:53.472 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: BMW 3 Series
+2025-04-11 10:33:53.472 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: BMW 3 Series 2024
+2025-04-11 10:33:53.473 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: Land Rover Range Rover Sport
+2025-04-11 10:33:53.473 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Land Rover Range Rover Sport 2018
+2025-04-11 10:33:53.474 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: Kia Sportage
+2025-04-11 10:33:53.474 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Kia Sportage 2019
+2025-04-11 10:33:53.475 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Volkswagen e-Golf
+2025-04-11 10:33:53.476 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Volkswagen e-Golf 2018
+2025-04-11 10:33:53.476 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Tesla Model S
+2025-04-11 10:33:53.477 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Tesla Model S 2022
+2025-04-11 10:33:53.477 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: Audi Q5
+2025-04-11 10:33:53.478 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi Q5 2022
+2025-04-11 10:33:53.479 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: Audi Q7
+2025-04-11 10:33:53.480 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi Q7 2016
+2025-04-11 10:33:53.480 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: Tesla Model Y
+2025-04-11 10:33:53.481 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Tesla Model Y 2023
+2025-04-11 10:33:53.481 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: Porsche Cayenne
+2025-04-11 10:33:53.482 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Porsche Cayenne 2018
+2025-04-11 10:33:53.482 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: Nissan Rogue
+2025-04-11 10:33:53.483 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Nissan Rogue 2017
+2025-04-11 10:33:55.486 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 3 з 3
+2025-04-11 10:33:55.488 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=3
+2025-04-11 10:33:56.184 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GLE-Class 2017
+2025-04-11 10:33:56.185 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz S-Class 2020
+2025-04-11 10:33:56.185 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q5 2014
+2025-04-11 10:33:56.186 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A6 2020
+2025-04-11 10:33:56.187 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus LX 2019
+2025-04-11 10:33:56.187 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A7 Sportback 2014
+2025-04-11 10:33:56.188 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2017
+2025-04-11 10:33:56.189 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GLE-Class 300d EQ Boost 9G-Tronic (269 к.с.) 4Matic 2024
+2025-04-11 10:33:56.189 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Superb 2014
+2025-04-11 10:33:56.190 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4 2025
+2025-04-11 10:33:56.190 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: ВАЗ 2110 2005
+2025-04-11 10:33:56.191 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD 2025
+2025-04-11 10:33:56.192 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Toyota Corolla 2020
+2025-04-11 10:33:56.192 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Maserati Levante 2019
+2025-04-11 10:33:56.193 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2015
+2025-04-11 10:33:56.194 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2021
+2025-04-11 10:33:56.194 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Nissan Rogue 2024
+2025-04-11 10:33:56.195 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2022
+2025-04-11 10:33:56.196 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Porsche Cayenne 2023
+2025-04-11 10:33:56.196 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GLE-Class 2021
+2025-04-11 10:33:56.196 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 3
+2025-04-11 10:33:56.197 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Mercedes-Benz GLE-Class
+2025-04-11 10:33:56.199 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Mercedes-Benz GLE-Class 2017
+2025-04-11 10:33:56.200 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: Mercedes-Benz S-Class
+2025-04-11 10:33:56.200 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Mercedes-Benz S-Class 2020
+2025-04-11 10:33:56.201 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Audi Q5
+2025-04-11 10:33:56.202 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi Q5 2014
+2025-04-11 10:33:56.202 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Audi A6
+2025-04-11 10:33:56.203 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi A6 2020
+2025-04-11 10:33:56.203 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: Lexus LX
+2025-04-11 10:33:56.204 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Lexus LX 2019
+2025-04-11 10:33:56.204 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Audi A7 Sportback
+2025-04-11 10:33:56.205 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi A7 Sportback 2014
+2025-04-11 10:33:56.205 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Audi Q7
+2025-04-11 10:33:56.206 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi Q7 2017
+2025-04-11 10:33:56.206 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: Mercedes-Benz GLE-Class 300d EQ Boost 9G-Tronic (269 к.с.) 4Matic
+2025-04-11 10:33:56.207 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Mercedes-Benz GLE-Class 300d EQ Boost 9G-Tronic (269 к.с.) 4Matic 2024
+2025-04-11 10:33:56.207 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Skoda Superb
+2025-04-11 10:33:56.208 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Skoda Superb 2014
+2025-04-11 10:33:56.208 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4
+2025-04-11 10:33:56.209 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4 2025
+2025-04-11 10:33:56.209 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: ВАЗ 2110
+2025-04-11 10:33:56.210 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: ВАЗ 2110 2005
+2025-04-11 10:33:56.210 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD
+2025-04-11 10:33:56.211 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD 2025
+2025-04-11 10:33:56.211 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: Toyota Corolla
+2025-04-11 10:33:56.212 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Toyota Corolla 2020
+2025-04-11 10:33:56.212 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Maserati Levante
+2025-04-11 10:33:56.213 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Maserati Levante 2019
+2025-04-11 10:33:56.213 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Audi Q7
+2025-04-11 10:33:56.214 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi Q7 2015
+2025-04-11 10:33:56.214 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: Audi e-tron
+2025-04-11 10:33:56.215 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi e-tron 2021
+2025-04-11 10:33:56.215 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: Nissan Rogue
+2025-04-11 10:33:56.216 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Nissan Rogue 2024
+2025-04-11 10:33:56.216 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: BMW X5
+2025-04-11 10:33:56.217 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: BMW X5 2022
+2025-04-11 10:33:56.217 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: Porsche Cayenne
+2025-04-11 10:33:56.218 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Porsche Cayenne 2023
+2025-04-11 10:33:56.218 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: Mercedes-Benz GLE-Class
+2025-04-11 10:33:56.219 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Mercedes-Benz GLE-Class 2021
+2025-04-11 10:33:58.221 | INFO     | app.scraper.auto_ria:scrape_cars:249 - Скрапінг завершено. Збережено 60 автомобілів.
+2025-04-11 10:38:23.024 | INFO     | app.main:shutdown_event:49 - Завершення роботи додатку...
+2025-04-11 10:38:23.030 | INFO     | app.db.database:close_db:64 - Підключення до MongoDB закрито
+2025-04-11 10:38:23.031 | INFO     | app.main:shutdown_event:51 - З'єднання з базою даних закрито
+2025-04-11 10:38:23.777 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-11 10:38:23.789 | INFO     | app.db.database:init_db:50 - Успішно підключено до MongoDB: mongodb://mongodb:27017, база даних: car_marketplace
+2025-04-11 10:38:23.789 | INFO     | app.main:startup_event:44 - База даних успішно ініціалізована
+2025-04-11 11:00:24.374 | INFO     | app.main:shutdown_event:49 - Завершення роботи додатку...
+2025-04-11 11:00:24.391 | INFO     | app.db.database:close_db:64 - Підключення до MongoDB закрито
+2025-04-11 11:00:24.392 | INFO     | app.main:shutdown_event:51 - З'єднання з базою даних закрито
+2025-04-11 11:06:44.893 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-11 11:06:45.414 | INFO     | app.db.database:init_db:50 - Успішно підключено до MongoDB: mongodb://mongodb:27017, база даних: car_marketplace
+2025-04-11 11:06:45.414 | INFO     | app.main:startup_event:44 - База даних успішно ініціалізована
+2025-04-11 11:06:56.769 | INFO     | app.scraper.auto_ria:scrape_cars:229 - Початок скрапінгу 3 сторінок з auto.ria.com
+2025-04-11 11:06:56.777 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 1 з 3
+2025-04-11 11:06:56.777 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=1
+2025-04-11 11:06:58.523 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2016
+2025-04-11 11:06:58.524 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz G-Class 2025
+2025-04-11 11:06:58.525 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Nissan Juke 2011
+2025-04-11 11:06:58.526 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz E-Class 2020
+2025-04-11 11:06:58.527 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Infiniti Q50 2017
+2025-04-11 11:06:58.527 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2016
+2025-04-11 11:06:58.528 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2020
+2025-04-11 11:06:58.529 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2.0 TDI DSG (150 к.с.) 2025
+2025-04-11 11:06:58.530 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2023
+2025-04-11 11:06:58.530 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4 2025
+2025-04-11 11:06:58.531 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2021
+2025-04-11 11:06:58.532 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2022
+2025-04-11 11:06:58.532 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X3 2018
+2025-04-11 11:06:58.533 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2019
+2025-04-11 11:06:58.533 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2021
+2025-04-11 11:06:58.534 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2021
+2025-04-11 11:06:58.535 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mazda CX-5 2021
+2025-04-11 11:06:58.535 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 5 Series 2012
+2025-04-11 11:06:58.536 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mazda CX-5 2016
+2025-04-11 11:06:58.537 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 5 Series 2010
+2025-04-11 11:06:58.537 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 1
+2025-04-11 11:06:58.537 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Volkswagen Touareg
+2025-04-11 11:06:58.547 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen Touareg 2016
+2025-04-11 11:06:58.547 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: Mercedes-Benz G-Class
+2025-04-11 11:06:58.548 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz G-Class 2025
+2025-04-11 11:06:58.548 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Nissan Juke
+2025-04-11 11:06:58.554 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Nissan Juke 2011
+2025-04-11 11:06:58.554 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Mercedes-Benz E-Class
+2025-04-11 11:06:58.555 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz E-Class 2020
+2025-04-11 11:06:58.555 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: Infiniti Q50
+2025-04-11 11:06:58.556 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Infiniti Q50 2017
+2025-04-11 11:06:58.556 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Skoda Octavia
+2025-04-11 11:06:58.557 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Skoda Octavia 2016
+2025-04-11 11:06:58.557 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Skoda Octavia
+2025-04-11 11:06:58.558 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Octavia 2020
+2025-04-11 11:06:58.558 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: Skoda Octavia 2.0 TDI DSG (150 к.с.)
+2025-04-11 11:06:58.559 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Octavia 2.0 TDI DSG (150 к.с.) 2025
+2025-04-11 11:06:58.559 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Volkswagen Touareg
+2025-04-11 11:06:58.560 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen Touareg 2023
+2025-04-11 11:06:58.560 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4
+2025-04-11 11:06:58.561 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4 2025
+2025-04-11 11:06:58.561 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: Audi e-tron
+2025-04-11 11:06:58.562 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Audi e-tron 2021
+2025-04-11 11:06:58.562 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: Volkswagen Touareg
+2025-04-11 11:06:58.562 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen Touareg 2022
+2025-04-11 11:06:58.563 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: BMW X3
+2025-04-11 11:06:58.563 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X3 2018
+2025-04-11 11:06:58.563 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Audi e-tron
+2025-04-11 11:06:58.564 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi e-tron 2019
+2025-04-11 11:06:58.564 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Audi e-tron
+2025-04-11 11:06:58.565 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi e-tron 2021
+2025-04-11 11:06:58.565 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: Skoda Octavia
+2025-04-11 11:06:58.566 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Octavia 2021
+2025-04-11 11:06:58.566 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: Mazda CX-5
+2025-04-11 11:06:58.567 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Mazda CX-5 2021
+2025-04-11 11:06:58.567 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: BMW 5 Series
+2025-04-11 11:06:58.568 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 5 Series 2012
+2025-04-11 11:06:58.568 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: Mazda CX-5
+2025-04-11 11:06:58.568 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mazda CX-5 2016
+2025-04-11 11:06:58.569 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: BMW 5 Series
+2025-04-11 11:06:58.569 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 5 Series 2010
+2025-04-11 11:07:00.574 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 2 з 3
+2025-04-11 11:07:00.577 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=2
+2025-04-11 11:07:01.508 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus IS 2009
+2025-04-11 11:07:01.509 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2016
+2025-04-11 11:07:01.509 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mazda CX-5 2022
+2025-04-11 11:07:01.510 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus GX 2009
+2025-04-11 11:07:01.511 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2016
+2025-04-11 11:07:01.511 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Kia Sportage 2019
+2025-04-11 11:07:01.512 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A6 2018
+2025-04-11 11:07:01.513 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2019
+2025-04-11 11:07:01.513 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus GX 2012
+2025-04-11 11:07:01.514 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2017
+2025-04-11 11:07:01.514 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 3 Series 2024
+2025-04-11 11:07:01.515 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Land Rover Range Rover Sport 2018
+2025-04-11 11:07:01.516 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Kia Sportage 2019
+2025-04-11 11:07:01.516 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen e-Golf 2018
+2025-04-11 11:07:01.517 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Tesla Model S 2022
+2025-04-11 11:07:01.518 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q5 2022
+2025-04-11 11:07:01.518 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2016
+2025-04-11 11:07:01.519 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Tesla Model Y 2023
+2025-04-11 11:07:01.519 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Porsche Cayenne 2018
+2025-04-11 11:07:01.520 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Nissan Rogue 2017
+2025-04-11 11:07:01.520 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 2
+2025-04-11 11:07:01.520 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Lexus IS
+2025-04-11 11:07:01.522 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Lexus IS 2009
+2025-04-11 11:07:01.523 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: BMW X5
+2025-04-11 11:07:01.524 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X5 2016
+2025-04-11 11:07:01.524 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Mazda CX-5
+2025-04-11 11:07:01.525 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mazda CX-5 2022
+2025-04-11 11:07:01.525 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Lexus GX
+2025-04-11 11:07:01.526 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Lexus GX 2009
+2025-04-11 11:07:01.526 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: Audi Q7
+2025-04-11 11:07:01.527 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2016
+2025-04-11 11:07:01.527 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Kia Sportage
+2025-04-11 11:07:01.528 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Kia Sportage 2019
+2025-04-11 11:07:01.528 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Audi A6
+2025-04-11 11:07:01.529 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi A6 2018
+2025-04-11 11:07:01.529 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: BMW X5
+2025-04-11 11:07:01.530 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X5 2019
+2025-04-11 11:07:01.530 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Lexus GX
+2025-04-11 11:07:01.531 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Lexus GX 2012
+2025-04-11 11:07:01.531 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Audi Q7
+2025-04-11 11:07:01.532 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2017
+2025-04-11 11:07:01.532 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: BMW 3 Series
+2025-04-11 11:07:01.533 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 3 Series 2024
+2025-04-11 11:07:01.533 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: Land Rover Range Rover Sport
+2025-04-11 11:07:01.534 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Land Rover Range Rover Sport 2018
+2025-04-11 11:07:01.535 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: Kia Sportage
+2025-04-11 11:07:01.535 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Kia Sportage 2019
+2025-04-11 11:07:01.536 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Volkswagen e-Golf
+2025-04-11 11:07:01.537 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen e-Golf 2018
+2025-04-11 11:07:01.537 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Tesla Model S
+2025-04-11 11:07:01.538 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Tesla Model S 2022
+2025-04-11 11:07:01.538 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: Audi Q5
+2025-04-11 11:07:01.539 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q5 2022
+2025-04-11 11:07:01.539 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: Audi Q7
+2025-04-11 11:07:01.540 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2016
+2025-04-11 11:07:01.540 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: Tesla Model Y
+2025-04-11 11:07:01.541 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Tesla Model Y 2023
+2025-04-11 11:07:01.541 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: Porsche Cayenne
+2025-04-11 11:07:01.542 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Porsche Cayenne 2018
+2025-04-11 11:07:01.542 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: Nissan Rogue
+2025-04-11 11:07:01.543 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Nissan Rogue 2017
+2025-04-11 11:07:03.547 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 3 з 3
+2025-04-11 11:07:03.548 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=3
+2025-04-11 11:07:04.074 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GLE-Class 2017
+2025-04-11 11:07:04.074 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz S-Class 2020
+2025-04-11 11:07:04.075 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q5 2014
+2025-04-11 11:07:04.076 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A6 2020
+2025-04-11 11:07:04.077 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus LX 2019
+2025-04-11 11:07:04.077 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A7 Sportback 2014
+2025-04-11 11:07:04.078 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2017
+2025-04-11 11:07:04.079 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD 2025
+2025-04-11 11:07:04.079 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GLE-Class 300d EQ Boost 9G-Tronic (269 к.с.) 4Matic 2024
+2025-04-11 11:07:04.080 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Superb 2014
+2025-04-11 11:07:04.081 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4 2025
+2025-04-11 11:07:04.081 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Toyota Corolla 2020
+2025-04-11 11:07:04.082 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Maserati Levante 2019
+2025-04-11 11:07:04.083 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2015
+2025-04-11 11:07:04.083 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2021
+2025-04-11 11:07:04.084 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Nissan Rogue 2024
+2025-04-11 11:07:04.085 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2022
+2025-04-11 11:07:04.085 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Porsche Cayenne 2023
+2025-04-11 11:07:04.086 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GLE-Class 2021
+2025-04-11 11:07:04.087 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X7 2022
+2025-04-11 11:07:04.087 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 3
+2025-04-11 11:07:04.087 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Mercedes-Benz GLE-Class
+2025-04-11 11:07:04.089 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz GLE-Class 2017
+2025-04-11 11:07:04.089 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: Mercedes-Benz S-Class
+2025-04-11 11:07:04.090 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz S-Class 2020
+2025-04-11 11:07:04.091 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Audi Q5
+2025-04-11 11:07:04.091 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q5 2014
+2025-04-11 11:07:04.092 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Audi A6
+2025-04-11 11:07:04.092 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi A6 2020
+2025-04-11 11:07:04.093 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: Lexus LX
+2025-04-11 11:07:04.094 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Lexus LX 2019
+2025-04-11 11:07:04.094 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Audi A7 Sportback
+2025-04-11 11:07:04.095 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi A7 Sportback 2014
+2025-04-11 11:07:04.095 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Audi Q7
+2025-04-11 11:07:04.096 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2017
+2025-04-11 11:07:04.096 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD
+2025-04-11 11:07:04.097 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD 2025
+2025-04-11 11:07:04.097 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Mercedes-Benz GLE-Class 300d EQ Boost 9G-Tronic (269 к.с.) 4Matic
+2025-04-11 11:07:04.098 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Mercedes-Benz GLE-Class 300d EQ Boost 9G-Tronic (269 к.с.) 4Matic 2024
+2025-04-11 11:07:04.098 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Skoda Superb
+2025-04-11 11:07:04.099 | INFO     | app.scraper.auto_ria:_save_car_to_db:203 - Додано новий автомобіль: Skoda Superb 2014
+2025-04-11 11:07:04.099 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4
+2025-04-11 11:07:04.100 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4 2025
+2025-04-11 11:07:04.100 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: Toyota Corolla
+2025-04-11 11:07:04.101 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Toyota Corolla 2020
+2025-04-11 11:07:04.101 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: Maserati Levante
+2025-04-11 11:07:04.102 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Maserati Levante 2019
+2025-04-11 11:07:04.102 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Audi Q7
+2025-04-11 11:07:04.103 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2015
+2025-04-11 11:07:04.103 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Audi e-tron
+2025-04-11 11:07:04.104 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi e-tron 2021
+2025-04-11 11:07:04.104 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: Nissan Rogue
+2025-04-11 11:07:04.105 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Nissan Rogue 2024
+2025-04-11 11:07:04.105 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: BMW X5
+2025-04-11 11:07:04.106 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X5 2022
+2025-04-11 11:07:04.106 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: Porsche Cayenne
+2025-04-11 11:07:04.107 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Porsche Cayenne 2023
+2025-04-11 11:07:04.107 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: Mercedes-Benz GLE-Class
+2025-04-11 11:07:04.108 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz GLE-Class 2021
+2025-04-11 11:07:04.108 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: BMW X7
+2025-04-11 11:07:04.109 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X7 2022
+2025-04-11 11:07:06.112 | INFO     | app.scraper.auto_ria:scrape_cars:249 - Скрапінг завершено. Збережено 60 автомобілів.
+2025-04-11 11:07:11.239 | INFO     | app.scraper.auto_ria:scrape_cars:229 - Початок скрапінгу 3 сторінок з auto.ria.com
+2025-04-11 11:07:11.240 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 1 з 3
+2025-04-11 11:07:11.241 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=1
+2025-04-11 11:07:11.945 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2016
+2025-04-11 11:07:11.946 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz G-Class 2025
+2025-04-11 11:07:11.947 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Nissan Juke 2011
+2025-04-11 11:07:11.948 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz E-Class 2020
+2025-04-11 11:07:11.948 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Infiniti Q50 2017
+2025-04-11 11:07:11.949 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2016
+2025-04-11 11:07:11.950 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2020
+2025-04-11 11:07:11.950 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2.0 TDI DSG (150 к.с.) 2025
+2025-04-11 11:07:11.951 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2023
+2025-04-11 11:07:11.952 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4 2025
+2025-04-11 11:07:11.952 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2021
+2025-04-11 11:07:11.953 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2022
+2025-04-11 11:07:11.953 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X3 2018
+2025-04-11 11:07:11.954 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2019
+2025-04-11 11:07:11.955 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2021
+2025-04-11 11:07:11.955 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2021
+2025-04-11 11:07:11.956 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mazda CX-5 2021
+2025-04-11 11:07:11.957 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 5 Series 2012
+2025-04-11 11:07:11.957 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mazda CX-5 2016
+2025-04-11 11:07:11.958 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 5 Series 2010
+2025-04-11 11:07:11.958 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 1
+2025-04-11 11:07:11.958 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Volkswagen Touareg
+2025-04-11 11:07:11.963 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen Touareg 2016
+2025-04-11 11:07:11.963 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: Mercedes-Benz G-Class
+2025-04-11 11:07:11.964 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz G-Class 2025
+2025-04-11 11:07:11.964 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Nissan Juke
+2025-04-11 11:07:11.965 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Nissan Juke 2011
+2025-04-11 11:07:11.965 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Mercedes-Benz E-Class
+2025-04-11 11:07:11.966 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz E-Class 2020
+2025-04-11 11:07:11.966 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: Infiniti Q50
+2025-04-11 11:07:11.967 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Infiniti Q50 2017
+2025-04-11 11:07:11.967 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Skoda Octavia
+2025-04-11 11:07:11.968 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Octavia 2016
+2025-04-11 11:07:11.968 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Skoda Octavia
+2025-04-11 11:07:11.969 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Octavia 2020
+2025-04-11 11:07:11.969 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: Skoda Octavia 2.0 TDI DSG (150 к.с.)
+2025-04-11 11:07:11.970 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Octavia 2.0 TDI DSG (150 к.с.) 2025
+2025-04-11 11:07:11.970 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Volkswagen Touareg
+2025-04-11 11:07:11.971 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen Touareg 2023
+2025-04-11 11:07:11.971 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4
+2025-04-11 11:07:11.972 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4 2025
+2025-04-11 11:07:11.973 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: Audi e-tron
+2025-04-11 11:07:11.974 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi e-tron 2021
+2025-04-11 11:07:11.974 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: Volkswagen Touareg
+2025-04-11 11:07:11.975 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen Touareg 2022
+2025-04-11 11:07:11.975 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: BMW X3
+2025-04-11 11:07:11.976 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X3 2018
+2025-04-11 11:07:11.976 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Audi e-tron
+2025-04-11 11:07:11.977 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi e-tron 2019
+2025-04-11 11:07:11.977 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Audi e-tron
+2025-04-11 11:07:11.978 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi e-tron 2021
+2025-04-11 11:07:11.978 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: Skoda Octavia
+2025-04-11 11:07:11.979 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Octavia 2021
+2025-04-11 11:07:11.979 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: Mazda CX-5
+2025-04-11 11:07:11.980 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mazda CX-5 2021
+2025-04-11 11:07:11.980 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: BMW 5 Series
+2025-04-11 11:07:11.981 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 5 Series 2012
+2025-04-11 11:07:11.981 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: Mazda CX-5
+2025-04-11 11:07:11.982 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mazda CX-5 2016
+2025-04-11 11:07:11.982 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: BMW 5 Series
+2025-04-11 11:07:11.983 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 5 Series 2010
+2025-04-11 11:07:13.990 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 2 з 3
+2025-04-11 11:07:13.991 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=2
+2025-04-11 11:07:14.590 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus IS 2009
+2025-04-11 11:07:14.591 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2016
+2025-04-11 11:07:14.592 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mazda CX-5 2022
+2025-04-11 11:07:14.592 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus GX 2009
+2025-04-11 11:07:14.593 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2016
+2025-04-11 11:07:14.594 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Kia Sportage 2019
+2025-04-11 11:07:14.594 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A6 2018
+2025-04-11 11:07:14.595 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2019
+2025-04-11 11:07:14.596 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus GX 2012
+2025-04-11 11:07:14.596 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2017
+2025-04-11 11:07:14.597 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 3 Series 2024
+2025-04-11 11:07:14.597 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Land Rover Range Rover Sport 2018
+2025-04-11 11:07:14.598 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Kia Sportage 2019
+2025-04-11 11:07:14.599 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen e-Golf 2018
+2025-04-11 11:07:14.599 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Tesla Model S 2022
+2025-04-11 11:07:14.600 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q5 2022
+2025-04-11 11:07:14.601 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2016
+2025-04-11 11:07:14.601 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Tesla Model Y 2023
+2025-04-11 11:07:14.602 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Porsche Cayenne 2018
+2025-04-11 11:07:14.603 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Nissan Rogue 2017
+2025-04-11 11:07:14.603 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 2
+2025-04-11 11:07:14.603 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Lexus IS
+2025-04-11 11:07:14.605 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Lexus IS 2009
+2025-04-11 11:07:14.605 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: BMW X5
+2025-04-11 11:07:14.606 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X5 2016
+2025-04-11 11:07:14.606 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Mazda CX-5
+2025-04-11 11:07:14.607 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mazda CX-5 2022
+2025-04-11 11:07:14.607 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Lexus GX
+2025-04-11 11:07:14.608 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Lexus GX 2009
+2025-04-11 11:07:14.609 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: Audi Q7
+2025-04-11 11:07:14.610 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2016
+2025-04-11 11:07:14.610 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Kia Sportage
+2025-04-11 11:07:14.611 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Kia Sportage 2019
+2025-04-11 11:07:14.611 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Audi A6
+2025-04-11 11:07:14.611 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi A6 2018
+2025-04-11 11:07:14.612 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: BMW X5
+2025-04-11 11:07:14.612 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X5 2019
+2025-04-11 11:07:14.612 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Lexus GX
+2025-04-11 11:07:14.613 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Lexus GX 2012
+2025-04-11 11:07:14.613 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Audi Q7
+2025-04-11 11:07:14.614 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2017
+2025-04-11 11:07:14.614 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: BMW 3 Series
+2025-04-11 11:07:14.615 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 3 Series 2024
+2025-04-11 11:07:14.615 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: Land Rover Range Rover Sport
+2025-04-11 11:07:14.616 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Land Rover Range Rover Sport 2018
+2025-04-11 11:07:14.616 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: Kia Sportage
+2025-04-11 11:07:14.617 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Kia Sportage 2019
+2025-04-11 11:07:14.617 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Volkswagen e-Golf
+2025-04-11 11:07:14.618 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen e-Golf 2018
+2025-04-11 11:07:14.618 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Tesla Model S
+2025-04-11 11:07:14.619 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Tesla Model S 2022
+2025-04-11 11:07:14.619 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: Audi Q5
+2025-04-11 11:07:14.620 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q5 2022
+2025-04-11 11:07:14.620 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: Audi Q7
+2025-04-11 11:07:14.621 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2016
+2025-04-11 11:07:14.621 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: Tesla Model Y
+2025-04-11 11:07:14.622 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Tesla Model Y 2023
+2025-04-11 11:07:14.622 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: Porsche Cayenne
+2025-04-11 11:07:14.623 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Porsche Cayenne 2018
+2025-04-11 11:07:14.623 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: Nissan Rogue
+2025-04-11 11:07:14.624 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Nissan Rogue 2017
+2025-04-11 11:07:16.631 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 3 з 3
+2025-04-11 11:07:16.632 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=3
+2025-04-11 11:07:17.224 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GLE-Class 2017
+2025-04-11 11:07:17.225 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz S-Class 2020
+2025-04-11 11:07:17.225 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q5 2014
+2025-04-11 11:07:17.226 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A6 2020
+2025-04-11 11:07:17.227 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus LX 2019
+2025-04-11 11:07:17.228 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A7 Sportback 2014
+2025-04-11 11:07:17.228 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2017
+2025-04-11 11:07:17.229 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD 2025
+2025-04-11 11:07:17.230 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GLE-Class 300d EQ Boost 9G-Tronic (269 к.с.) 4Matic 2024
+2025-04-11 11:07:17.230 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Superb 2014
+2025-04-11 11:07:17.231 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4 2025
+2025-04-11 11:07:17.232 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Toyota Corolla 2020
+2025-04-11 11:07:17.232 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Maserati Levante 2019
+2025-04-11 11:07:17.233 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2015
+2025-04-11 11:07:17.234 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2021
+2025-04-11 11:07:17.234 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Nissan Rogue 2024
+2025-04-11 11:07:17.235 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2022
+2025-04-11 11:07:17.236 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Porsche Cayenne 2023
+2025-04-11 11:07:17.236 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GLE-Class 2021
+2025-04-11 11:07:17.237 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X7 2022
+2025-04-11 11:07:17.237 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 3
+2025-04-11 11:07:17.237 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Mercedes-Benz GLE-Class
+2025-04-11 11:07:17.239 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz GLE-Class 2017
+2025-04-11 11:07:17.239 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: Mercedes-Benz S-Class
+2025-04-11 11:07:17.240 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz S-Class 2020
+2025-04-11 11:07:17.240 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Audi Q5
+2025-04-11 11:07:17.241 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q5 2014
+2025-04-11 11:07:17.242 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Audi A6
+2025-04-11 11:07:17.243 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi A6 2020
+2025-04-11 11:07:17.243 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: Lexus LX
+2025-04-11 11:07:17.244 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Lexus LX 2019
+2025-04-11 11:07:17.244 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Audi A7 Sportback
+2025-04-11 11:07:17.245 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi A7 Sportback 2014
+2025-04-11 11:07:17.245 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Audi Q7
+2025-04-11 11:07:17.246 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2017
+2025-04-11 11:07:17.246 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD
+2025-04-11 11:07:17.247 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD 2025
+2025-04-11 11:07:17.247 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Mercedes-Benz GLE-Class 300d EQ Boost 9G-Tronic (269 к.с.) 4Matic
+2025-04-11 11:07:17.249 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz GLE-Class 300d EQ Boost 9G-Tronic (269 к.с.) 4Matic 2024
+2025-04-11 11:07:17.249 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Skoda Superb
+2025-04-11 11:07:17.250 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Superb 2014
+2025-04-11 11:07:17.250 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4
+2025-04-11 11:07:17.251 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4 2025
+2025-04-11 11:07:17.252 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: Toyota Corolla
+2025-04-11 11:07:17.252 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Toyota Corolla 2020
+2025-04-11 11:07:17.253 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: Maserati Levante
+2025-04-11 11:07:17.254 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Maserati Levante 2019
+2025-04-11 11:07:17.254 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Audi Q7
+2025-04-11 11:07:17.255 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2015
+2025-04-11 11:07:17.255 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Audi e-tron
+2025-04-11 11:07:17.256 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi e-tron 2021
+2025-04-11 11:07:17.256 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: Nissan Rogue
+2025-04-11 11:07:17.257 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Nissan Rogue 2024
+2025-04-11 11:07:17.257 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: BMW X5
+2025-04-11 11:07:17.258 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X5 2022
+2025-04-11 11:07:17.258 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: Porsche Cayenne
+2025-04-11 11:07:17.259 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Porsche Cayenne 2023
+2025-04-11 11:07:17.259 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: Mercedes-Benz GLE-Class
+2025-04-11 11:07:17.260 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz GLE-Class 2021
+2025-04-11 11:07:17.260 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: BMW X7
+2025-04-11 11:07:17.261 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X7 2022
+2025-04-11 11:07:19.265 | INFO     | app.scraper.auto_ria:scrape_cars:249 - Скрапінг завершено. Збережено 60 автомобілів.
+2025-04-11 11:07:50.328 | INFO     | app.main:shutdown_event:49 - Завершення роботи додатку...
+2025-04-11 11:07:50.335 | INFO     | app.db.database:close_db:64 - Підключення до MongoDB закрито
+2025-04-11 11:07:50.335 | INFO     | app.main:shutdown_event:51 - З'єднання з базою даних закрито
+2025-04-11 11:08:14.893 | INFO     | app.main:startup_event:42 - Запуск додатку...
+2025-04-11 11:08:15.990 | INFO     | app.db.database:init_db:50 - Успішно підключено до MongoDB: mongodb://mongodb:27017, база даних: car_marketplace
+2025-04-11 11:08:15.994 | INFO     | app.main:startup_event:44 - База даних успішно ініціалізована
+2025-04-11 11:08:21.543 | INFO     | app.scraper.auto_ria:scrape_cars:229 - Початок скрапінгу 3 сторінок з auto.ria.com
+2025-04-11 11:08:21.545 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 1 з 3
+2025-04-11 11:08:21.546 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=1
+2025-04-11 11:08:22.238 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2016
+2025-04-11 11:08:22.239 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz G-Class 2025
+2025-04-11 11:08:22.240 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Nissan Juke 2011
+2025-04-11 11:08:22.240 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz E-Class 2020
+2025-04-11 11:08:22.241 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Infiniti Q50 2017
+2025-04-11 11:08:22.242 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2016
+2025-04-11 11:08:22.242 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2020
+2025-04-11 11:08:22.243 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2.0 TDI DSG (150 к.с.) 2025
+2025-04-11 11:08:22.244 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2023
+2025-04-11 11:08:22.244 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4 2025
+2025-04-11 11:08:22.245 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2021
+2025-04-11 11:08:22.246 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 2022
+2025-04-11 11:08:22.246 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X3 2018
+2025-04-11 11:08:22.247 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2019
+2025-04-11 11:08:22.248 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2021
+2025-04-11 11:08:22.248 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Octavia 2021
+2025-04-11 11:08:22.249 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mazda CX-5 2021
+2025-04-11 11:08:22.249 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 5 Series 2012
+2025-04-11 11:08:22.250 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mazda CX-5 2016
+2025-04-11 11:08:22.251 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 5 Series 2010
+2025-04-11 11:08:22.251 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 1
+2025-04-11 11:08:22.251 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Volkswagen Touareg
+2025-04-11 11:08:22.255 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen Touareg 2016
+2025-04-11 11:08:22.255 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: Mercedes-Benz G-Class
+2025-04-11 11:08:22.256 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz G-Class 2025
+2025-04-11 11:08:22.256 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Nissan Juke
+2025-04-11 11:08:22.257 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Nissan Juke 2011
+2025-04-11 11:08:22.257 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Mercedes-Benz E-Class
+2025-04-11 11:08:22.258 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz E-Class 2020
+2025-04-11 11:08:22.258 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: Infiniti Q50
+2025-04-11 11:08:22.259 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Infiniti Q50 2017
+2025-04-11 11:08:22.259 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Skoda Octavia
+2025-04-11 11:08:22.260 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Octavia 2016
+2025-04-11 11:08:22.261 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Skoda Octavia
+2025-04-11 11:08:22.262 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Octavia 2020
+2025-04-11 11:08:22.262 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: Skoda Octavia 2.0 TDI DSG (150 к.с.)
+2025-04-11 11:08:22.263 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Octavia 2.0 TDI DSG (150 к.с.) 2025
+2025-04-11 11:08:22.263 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Volkswagen Touareg
+2025-04-11 11:08:22.264 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen Touareg 2023
+2025-04-11 11:08:22.264 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4
+2025-04-11 11:08:22.265 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Kodiaq 2.0 TDI 7-DSG (150 к.с.) 4x4 2025
+2025-04-11 11:08:22.265 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: Audi e-tron
+2025-04-11 11:08:22.266 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi e-tron 2021
+2025-04-11 11:08:22.266 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: Volkswagen Touareg
+2025-04-11 11:08:22.267 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen Touareg 2022
+2025-04-11 11:08:22.267 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: BMW X3
+2025-04-11 11:08:22.268 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X3 2018
+2025-04-11 11:08:22.268 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Audi e-tron
+2025-04-11 11:08:22.269 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi e-tron 2019
+2025-04-11 11:08:22.269 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Audi e-tron
+2025-04-11 11:08:22.270 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi e-tron 2021
+2025-04-11 11:08:22.270 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: Skoda Octavia
+2025-04-11 11:08:22.271 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Octavia 2021
+2025-04-11 11:08:22.271 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: Mazda CX-5
+2025-04-11 11:08:22.272 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mazda CX-5 2021
+2025-04-11 11:08:22.272 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: BMW 5 Series
+2025-04-11 11:08:22.273 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 5 Series 2012
+2025-04-11 11:08:22.273 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: Mazda CX-5
+2025-04-11 11:08:22.274 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mazda CX-5 2016
+2025-04-11 11:08:22.274 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: BMW 5 Series
+2025-04-11 11:08:22.275 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 5 Series 2010
+2025-04-11 11:08:24.279 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 2 з 3
+2025-04-11 11:08:24.281 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=2
+2025-04-11 11:08:24.803 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus IS 2009
+2025-04-11 11:08:24.804 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2016
+2025-04-11 11:08:24.805 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mazda CX-5 2022
+2025-04-11 11:08:24.806 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus GX 2009
+2025-04-11 11:08:24.806 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2016
+2025-04-11 11:08:24.807 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Kia Sportage 2019
+2025-04-11 11:08:24.808 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A6 2018
+2025-04-11 11:08:24.808 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2019
+2025-04-11 11:08:24.809 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus GX 2012
+2025-04-11 11:08:24.810 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2017
+2025-04-11 11:08:24.810 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW 3 Series 2024
+2025-04-11 11:08:24.811 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Land Rover Range Rover Sport 2018
+2025-04-11 11:08:24.812 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Kia Sportage 2019
+2025-04-11 11:08:24.812 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen e-Golf 2018
+2025-04-11 11:08:24.813 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Tesla Model S 2022
+2025-04-11 11:08:24.814 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q5 2022
+2025-04-11 11:08:24.814 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2016
+2025-04-11 11:08:24.815 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Tesla Model Y 2023
+2025-04-11 11:08:24.815 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Porsche Cayenne 2018
+2025-04-11 11:08:24.816 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Nissan Rogue 2017
+2025-04-11 11:08:24.816 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 2
+2025-04-11 11:08:24.816 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Lexus IS
+2025-04-11 11:08:24.820 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Lexus IS 2009
+2025-04-11 11:08:24.820 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: BMW X5
+2025-04-11 11:08:24.821 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X5 2016
+2025-04-11 11:08:24.822 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Mazda CX-5
+2025-04-11 11:08:24.823 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mazda CX-5 2022
+2025-04-11 11:08:24.823 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Lexus GX
+2025-04-11 11:08:24.824 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Lexus GX 2009
+2025-04-11 11:08:24.824 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: Audi Q7
+2025-04-11 11:08:24.825 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2016
+2025-04-11 11:08:24.825 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Kia Sportage
+2025-04-11 11:08:24.826 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Kia Sportage 2019
+2025-04-11 11:08:24.826 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Audi A6
+2025-04-11 11:08:24.827 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi A6 2018
+2025-04-11 11:08:24.827 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: BMW X5
+2025-04-11 11:08:24.828 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X5 2019
+2025-04-11 11:08:24.828 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Lexus GX
+2025-04-11 11:08:24.829 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Lexus GX 2012
+2025-04-11 11:08:24.830 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Audi Q7
+2025-04-11 11:08:24.831 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2017
+2025-04-11 11:08:24.831 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: BMW 3 Series
+2025-04-11 11:08:24.832 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW 3 Series 2024
+2025-04-11 11:08:24.832 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: Land Rover Range Rover Sport
+2025-04-11 11:08:24.833 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Land Rover Range Rover Sport 2018
+2025-04-11 11:08:24.833 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: Kia Sportage
+2025-04-11 11:08:24.834 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Kia Sportage 2019
+2025-04-11 11:08:24.834 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Volkswagen e-Golf
+2025-04-11 11:08:24.835 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen e-Golf 2018
+2025-04-11 11:08:24.836 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Tesla Model S
+2025-04-11 11:08:24.837 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Tesla Model S 2022
+2025-04-11 11:08:24.837 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: Audi Q5
+2025-04-11 11:08:24.838 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q5 2022
+2025-04-11 11:08:24.838 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: Audi Q7
+2025-04-11 11:08:24.840 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2016
+2025-04-11 11:08:24.840 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: Tesla Model Y
+2025-04-11 11:08:24.841 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Tesla Model Y 2023
+2025-04-11 11:08:24.841 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: Porsche Cayenne
+2025-04-11 11:08:24.842 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Porsche Cayenne 2018
+2025-04-11 11:08:24.842 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: Nissan Rogue
+2025-04-11 11:08:24.843 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Nissan Rogue 2017
+2025-04-11 11:08:26.846 | INFO     | app.scraper.auto_ria:scrape_cars:233 - Обробка сторінки 3 з 3
+2025-04-11 11:08:26.847 | INFO     | app.scraper.auto_ria:_get_car_links:63 - Отримання списку автомобілів зі сторінки: https://auto.ria.com/uk/legkovie/?page=3
+2025-04-11 11:08:28.290 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GLE-Class 2017
+2025-04-11 11:08:28.291 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz S-Class 2020
+2025-04-11 11:08:28.292 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q5 2014
+2025-04-11 11:08:28.293 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A6 2020
+2025-04-11 11:08:28.293 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Lexus LX 2019
+2025-04-11 11:08:28.294 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi A7 Sportback 2014
+2025-04-11 11:08:28.295 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2017
+2025-04-11 11:08:28.295 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD 2025
+2025-04-11 11:08:28.296 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GLE-Class 300d EQ Boost 9G-Tronic (269 к.с.) 4Matic 2024
+2025-04-11 11:08:28.297 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Superb 2014
+2025-04-11 11:08:28.297 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4 2025
+2025-04-11 11:08:28.298 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Toyota Corolla 2020
+2025-04-11 11:08:28.299 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Maserati Levante 2019
+2025-04-11 11:08:28.299 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi Q7 2015
+2025-04-11 11:08:28.300 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Audi e-tron 2021
+2025-04-11 11:08:28.300 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Nissan Rogue 2024
+2025-04-11 11:08:28.301 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X5 2022
+2025-04-11 11:08:28.302 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Porsche Cayenne 2023
+2025-04-11 11:08:28.302 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: Mercedes-Benz GLE-Class 2021
+2025-04-11 11:08:28.303 | INFO     | app.scraper.auto_ria:_get_car_links:171 - Знайдено автомобіль: BMW X7 2022
+2025-04-11 11:08:28.303 | INFO     | app.scraper.auto_ria:_get_car_links:177 - Знайдено 20 автомобілів на сторінці 3
+2025-04-11 11:08:28.303 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 1/20: Mercedes-Benz GLE-Class
+2025-04-11 11:08:28.307 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz GLE-Class 2017
+2025-04-11 11:08:28.307 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 2/20: Mercedes-Benz S-Class
+2025-04-11 11:08:28.308 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz S-Class 2020
+2025-04-11 11:08:28.309 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 3/20: Audi Q5
+2025-04-11 11:08:28.309 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q5 2014
+2025-04-11 11:08:28.310 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 4/20: Audi A6
+2025-04-11 11:08:28.311 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi A6 2020
+2025-04-11 11:08:28.311 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 5/20: Lexus LX
+2025-04-11 11:08:28.312 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Lexus LX 2019
+2025-04-11 11:08:28.312 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 6/20: Audi A7 Sportback
+2025-04-11 11:08:28.313 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi A7 Sportback 2014
+2025-04-11 11:08:28.313 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 7/20: Audi Q7
+2025-04-11 11:08:28.314 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2017
+2025-04-11 11:08:28.314 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 8/20: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD
+2025-04-11 11:08:28.315 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Volkswagen Touareg 3.0 TDI AT (286 к.с.) AWD 2025
+2025-04-11 11:08:28.315 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 9/20: Mercedes-Benz GLE-Class 300d EQ Boost 9G-Tronic (269 к.с.) 4Matic
+2025-04-11 11:08:28.316 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz GLE-Class 300d EQ Boost 9G-Tronic (269 к.с.) 4Matic 2024
+2025-04-11 11:08:28.316 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 10/20: Skoda Superb
+2025-04-11 11:08:28.317 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Superb 2014
+2025-04-11 11:08:28.317 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 11/20: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4
+2025-04-11 11:08:28.318 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Skoda Kodiaq 2.0 TFSI 7-DSG (190 к.с.) 4x4 2025
+2025-04-11 11:08:28.318 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 12/20: Toyota Corolla
+2025-04-11 11:08:28.319 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Toyota Corolla 2020
+2025-04-11 11:08:28.319 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 13/20: Maserati Levante
+2025-04-11 11:08:28.320 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Maserati Levante 2019
+2025-04-11 11:08:28.320 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 14/20: Audi Q7
+2025-04-11 11:08:28.321 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi Q7 2015
+2025-04-11 11:08:28.321 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 15/20: Audi e-tron
+2025-04-11 11:08:28.322 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Audi e-tron 2021
+2025-04-11 11:08:28.322 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 16/20: Nissan Rogue
+2025-04-11 11:08:28.323 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Nissan Rogue 2024
+2025-04-11 11:08:28.323 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 17/20: BMW X5
+2025-04-11 11:08:28.324 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X5 2022
+2025-04-11 11:08:28.325 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 18/20: Porsche Cayenne
+2025-04-11 11:08:28.325 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Porsche Cayenne 2023
+2025-04-11 11:08:28.326 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 19/20: Mercedes-Benz GLE-Class
+2025-04-11 11:08:28.326 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: Mercedes-Benz GLE-Class 2021
+2025-04-11 11:08:28.327 | INFO     | app.scraper.auto_ria:scrape_cars:240 - Обробка автомобіля 20/20: BMW X7
+2025-04-11 11:08:28.327 | INFO     | app.scraper.auto_ria:_save_car_to_db:198 - Оновлено існуючий запис: BMW X7 2022
+2025-04-11 11:08:30.332 | INFO     | app.scraper.auto_ria:scrape_cars:249 - Скрапінг завершено. Збережено 60 автомобілів.
+2025-04-11 11:08:38.760 | INFO     | app.main:shutdown_event:49 - Завершення роботи додатку...
+2025-04-11 11:08:38.766 | INFO     | app.db.database:close_db:64 - Підключення до MongoDB закрито
+2025-04-11 11:08:38.766 | INFO     | app.main:shutdown_event:51 - З'єднання з базою даних закрито

@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: car_marketplace_api
+    build: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongodb
+    environment:
+      - MONGO_URL=mongodb://mongodb:27017
+      - MONGO_DB_NAME=car_marketplace
+    volumes:
+      - ./:/app
+    restart: unless-stopped
+
+  mongodb:
+    container_name: mongodb
+    image: mongo:6.0
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    restart: unless-stopped
+
+volumes:
+  mongodb_data:

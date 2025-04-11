@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог автомобілів | Auto Finder</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <!-- Навігаційна панель -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <i class="fas fa-car-alt"></i> Auto Finder
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="runScraper">
+                            <i class="fas fa-sync-alt"></i> Оновити дані
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/docs" target="_blank">
+                            <i class="fas fa-code"></i> API Docs
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Головний банер -->
+    <div class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1>Знайдіть ідеальний автомобіль</h1>
+                    <p class="lead">Найкращі пропозиції з auto.ria.com у зручному форматі</p>
+                    <button class="btn btn-primary btn-lg" id="startSearch">
+                        <i class="fas fa-search"></i> Почати пошук
+                    </button>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://img.freepik.com/free-vector/red-sedan-car-isolated-white-vector_53876-64401.jpg" alt="Car Illustration" class="img-fluid hero-image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Основний контент -->
+    <div class="container content-section">
+        <div class="row">
+            <!-- Фільтри -->
+            <div class="col-lg-3">
+                <div class="filters-wrapper">
+                    <div class="card filter-card mb-4">
+                        <div class="card-header">
+                            <h5 class="mb-0"><i class="fas fa-filter"></i> Фільтри</h5>
+                        </div>
+                        <div class="card-body">
+                            <form id="filterForm">
+                                <!-- Марка автомобіля -->
+                                <div class="mb-3">
+                                    <label for="make" class="form-label">Марка автомобіля</label>
+                                    <input type="text" class="form-control" id="make" placeholder="Наприклад: BMW">
+                                </div>
+                                
+                                <!-- Ціна -->
+                                <div class="mb-3">
+                                    <label class="form-label">Ціна ($)</label>
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="number" class="form-control" id="minPrice" placeholder="Від">
+                                        </div>
+                                        <div class="col">
+                                            <input type="number" class="form-control" id="maxPrice" placeholder="До">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Рік випуску -->
+                                <div class="mb-3">
+                                    <label class="form-label">Рік випуску</label>
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="number" class="form-control" id="minYear" placeholder="Від">
+                                        </div>
+                                        <div class="col">
+                                            <input type="number" class="form-control" id="maxYear" placeholder="До">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary w-100">
+                                    <i class="fas fa-search"></i> Пошук
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <!-- Сортування -->
+                    <div class="card filter-card">
+                        <div class="card-header">
+                            <h5 class="mb-0"><i class="fas fa-sort"></i> Сортування</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <label for="sortBy" class="form-label">Сортувати за</label>
+                                <select class="form-select" id="sortBy">
+                                    <option value="price">Ціна</option>
+                                    <option value="year">Рік випуску</option>
+                                    <option value="mileage">Пробіг</option>
+                                    <option value="created_at" selected>Дата додавання</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="sortOrder" class="form-label">Порядок</label>
+                                <select class="form-select" id="sortOrder">
+                                    <option value="-1" selected>За спаданням</option>
+                                    <option value="1">За зростанням</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Список автомобілів -->
+            <div class="col-lg-9">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h2><i class="fas fa-car"></i> Каталог автомобілів</h2>
+                    <div class="d-flex align-items-center">
+                        <span id="totalCars" class="me-3 total-counter">Знайдено: 0</span>
+                        <div class="btn-group">
+                            <button class="btn btn-outline-primary" id="refreshCars">
+                                <i class="fas fa-sync-alt"></i>
+                            </button>
+                            <div class="dropdown">
+                                <button class="btn btn-outline-primary dropdown-toggle" type="button" id="viewOptions" data-bs-toggle="dropdown">
+                                    <i class="fas fa-th-large"></i>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item view-option" data-view="grid" href="#"><i class="fas fa-th-large"></i> Сітка</a></li>
+                                    <li><a class="dropdown-item view-option" data-view="list" href="#"><i class="fas fa-list"></i> Список</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Контейнер для списку автомобілів -->
+                <div id="carsList" class="row">
+                    <!-- Тут будуть відображатися картки автомобілів -->
+                    <div class="col-12 text-center py-5">
+                        <div class="spinner-border" role="status">
+                            <span class="visually-hidden">Завантаження...</span>
+                        </div>
+                        <p class="mt-3">Завантаження даних...</p>
+                    </div>
+                </div>
+                
+                <!-- Пагінація -->
+                <nav aria-label="Пагінація" class="mt-4">
+                    <ul class="pagination justify-content-center" id="pagination">
+                        <!-- Пагінація буде згенерована JavaScript -->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- Статистика -->
+    <div class="stats-section py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 col-6 mb-4 mb-md-0">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <h3 class="stat-number" id="totalCarsCount">0</h3>
+                        <p class="stat-title">Автомобілів</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4 mb-md-0">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-tags"></i>
+                        </div>
+                        <h3 class="stat-number" id="avgPrice">$0</h3>
+                        <p class="stat-title">Середня ціна</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3 class="stat-number" id="avgYear">0</h3>
+                        <p class="stat-title">Середній рік</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <h3 class="stat-number" id="avgMileage">0 км</h3>
+                        <p class="stat-title">Середній пробіг</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Auto Finder</h5>
+                    <p>Зручний пошук автомобілів з auto.ria.com</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>© 2025 Auto Finder. Всі права захищені, Oleksandr Halaburda.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Модальне вікно для деталей авто -->
+    <div class="modal fade" id="carModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Деталі автомобіля</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="carModalContent">
+                    <!-- Тут будуть деталі автомобіля -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+                    <a href="#" class="btn btn-primary" id="originalLink" target="_blank">Переглянути на auto.ria.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

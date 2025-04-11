@@ -1,0 +1,490 @@
+.car-list-item {
+    display: flex;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--card-shadow);
+    margin-bottom: 20px;
+    transition: var(--transition);
+}
+
+.car-list-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.car-image-container {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    display: block;
+}
+
+.car-list-item .car-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.car-image-container:hover .car-image {
+    transform: scale(1.1);
+}
+
+.car-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: var(--transition);
+    color: white;
+    font-size: 1.5rem;
+}
+
+.car-image-container:hover .car-image-overlay {
+    opacity: 1;
+}
+
+.car-list-item .car-details {
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.car-list-item .car-price-container {
+    width: 180px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-light);
+}
+
+.car-list-item .btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+/* Глобальні змінні CSS */
+:root {
+    --primary: #3d85c6;
+    --primary-light: #f0f8ff;
+    --secondary: #f8f9fa;
+    --dark: #343a40;
+    --light: #f8f9fa;
+    --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+/* Навігаційна панель */
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #555;
+}
+
+.nav-link:hover {
+    color: var(--primary);
+}
+
+/* Головний банер */
+.hero-section {
+    background-color: white;
+    padding: 80px 0;
+    margin-bottom: 40px;
+}
+
+.hero-section h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.hero-section .lead {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.hero-image {
+    max-height: 300px;
+    margin: 0 auto;
+}
+
+/* Фільтри */
+.filter-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: var(--card-shadow);
+    margin-bottom: 20px;
+}
+
+.filter-card .card-header {
+    background-color: white;
+    border-bottom: 1px solid #eee;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+.filter-card .card-body {
+    padding: 20px;
+}
+
+/* Автомобільні картки */
+.car-card {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--card-shadow);
+    height: 100%;
+    transition: var(--transition);
+}
+
+.car-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.car-image-wrapper {
+    position: relative;
+    height: 180px;
+    overflow: hidden;
+}
+
+.car-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.car-card:hover .car-image {
+    transform: scale(1.1);
+}
+
+.car-year {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.car-body {
+    padding: 15px;
+}
+
+.car-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.car-price {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 15px;
+}
+
+.car-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.car-feature {
+    font-size: 0.8rem;
+    color: #666;
+    display: flex;
+    align-items: center;
+    width: calc(50% - 5px);
+}
+
+.car-feature i {
+    margin-right: 5px;
+    color: var(--primary);
+}
+
+.car-actions {
+    display: flex;
+    gap: 10px;
+}
+
+/* Стилі для списку автомобілів */
+.car-list-item {
+    display: flex;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--card-shadow);
+    margin-bottom: 20px;
+    transition: var(--transition);
+}
+
+.car-list-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.car-image-container {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    display: block;
+}
+
+.car-list-item .car-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.car-image-container:hover .car-image {
+    transform: scale(1.1);
+}
+
+.car-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: var(--transition);
+    color: white;
+    font-size: 1.5rem;
+}
+
+.car-image-container:hover .car-image-overlay {
+    opacity: 1;
+}
+
+.car-list-item .car-details {
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.car-list-item .car-price-container {
+    width: 180px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-light);
+}
+
+.car-list-item .car-price {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 15px;
+}
+
+.car-list-item .car-specs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.car-list-item .car-detail {
+    font-size: 0.85rem;
+    color: #666;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.car-list-item .car-detail i {
+    margin-right: 5px;
+    color: var(--primary);
+}
+
+.car-list-item .btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Статистика */
+.stats-section {
+    background-color: white;
+    margin-top: 50px;
+}
+
+.stat-item {
+    padding: 20px;
+}
+
+.stat-icon {
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: 15px;
+}
+
+.stat-number {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.stat-title {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 0;
+}
+
+/* Модальне вікно */
+.car-price-large {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.car-detail-item {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.car-detail-item i {
+    margin-right: 8px;
+    color: var(--primary);
+    width: 20px;
+    text-align: center;
+}
+
+/* Футер */
+.footer {
+    background-color: var(--dark);
+    color: white;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+.footer h5 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* Пагінація */
+.page-item.active .page-link {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.page-link {
+    color: var(--primary);
+}
+
+/* Анімації */
+.animate-fade-in {
+    animation: fadeIn 0.5s ease forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Лічильник */
+.total-counter {
+    font-weight: 500;
+    color: #666;
+}
+
+/* Адаптивність */
+@media (max-width: 992px) {
+    .filters-wrapper {
+        margin-bottom: 30px;
+    }
+    
+    .car-image-container {
+        width: 120px;
+    }
+    
+    .car-list-item .car-price-container {
+        width: 130px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 40px 0;
+    }
+    
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+    
+    .stat-item {
+        padding: 10px;
+    }
+    
+    .stat-number {
+        font-size: 1.5rem;
+    }
+    
+    .car-list-item {
+        flex-direction: column;
+    }
+    
+    .car-image-container {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .car-list-item .car-price-container {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .car-list-item .car-price {
+        margin-bottom: 0;
+    }
+    
+    .car-list-item .btn-group {
+        flex-direction: row;
+    }
+}
